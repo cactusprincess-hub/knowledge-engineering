@@ -41,6 +41,7 @@ def main() -> None:
     tree_edges, dropped_multi_parent = assign_single_parent(
         acyclic_edges,
         preferred_parents=config.get("preferred_parents", []),
+        parent_overrides=config.get("canonical_parent_overrides", {}),
     )
 
     payload = {

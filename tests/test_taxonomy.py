@@ -7,7 +7,7 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from software_ai_kg.taxonomy import assign_single_parent, remove_cycle_edges
+from software_ai_kg.taxonomy import assign_single_parent, build_tree_lines, remove_cycle_edges
 
 
 class TaxonomyTests(unittest.TestCase):
@@ -26,9 +26,24 @@ class TaxonomyTests(unittest.TestCase):
             {"parent": "客户端软件", "child": "浏览器"},
             {"parent": "互联网应用", "child": "浏览器"},
         ]
-        kept, dropped = assign_single_parent(edges, preferred_parents=["客户端软件"])
+        kept, dropped = assign_single_parent(
+            edges,
+            preferred_parents=["互联网应用"],
+            parent_overrides={"浏览器": "客户端软件"},
+        )
         self.assertEqual(kept, [{"parent": "客户端软件", "child": "浏览器"}])
         self.assertEqual(dropped, [{"parent": "互联网应用", "child": "浏览器"}])
+
+    def test_build_tree_lines(self) -> None:
+        edges = [
+            {"parent": "根", "child": "A"},
+            {"parent": "A", "child": "B"},
+            {"parent": "根", "child": "C"},
+        ]
+        lines = build_tree_lines("根", edges)
+        self.assertEqual(lines[0], "根")
+        self.assertIn("├── A", lines)
+        self.assertIn("│   └── B", lines)
 
 
 if __name__ == "__main__":
