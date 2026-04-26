@@ -6,6 +6,7 @@ __pycache__/
 .mypy_cache/
 data/raw/**/tmp/
 outputs/tmp/
+outputs/logs/
 data/raw/wikidata/wikidata_entities_raw.json
 data/raw/wikidata/batches/
 data/raw/wikidata/*.json.gz

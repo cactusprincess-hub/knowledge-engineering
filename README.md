@@ -105,6 +105,7 @@ python3 scripts/fetch_wikidata.py --limit 100 --insecure
 
 ```bash
 python3 scripts/fetch_wikidata_batches.py --insecure
+python3 scripts/normalize_wikidata_batches.py
 ```
 
 这个脚本会：
@@ -113,3 +114,17 @@ python3 scripts/fetch_wikidata_batches.py --insecure
 - 将每个批次持久化到 `data/raw/wikidata/batches/`
 - 生成批次清单 `outputs/figures/wikidata_batch_manifest.json`
 - 生成规模统计 `outputs/figures/wikidata_scale_stats.json`
+
+推荐先做中等规模验证：
+
+```bash
+python3 scripts/fetch_wikidata_batches.py --batch-size 200 --max-batches 1 --insecure --log-file outputs/logs/wikidata_scale.log
+python3 scripts/normalize_wikidata_batches.py
+```
+
+批量规范化统计会额外告诉你：
+
+- 全局 `QID` 去重后还剩多少实体
+- 有多少实体跨多个抓取目标重复出现
+- 丢弃率 `drop_ratio`
+- 过短简介占比 `short_description_ratio`

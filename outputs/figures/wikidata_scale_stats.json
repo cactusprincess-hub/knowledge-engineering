@@ -1,15 +1,16 @@
 {
   "batch_file_count": 7,
-  "raw_record_count": 140,
+  "raw_record_count": 1269,
   "skipped_existing_batch_count": 0,
+  "failed_batch_count": 0,
   "records_by_target": {
-    "database_management_system": 20,
-    "general_software": 20,
-    "mobile_app": 20,
-    "operating_system": 20,
-    "programming_language": 20,
-    "software_framework": 20,
-    "video_game": 20
+    "database_management_system": 69,
+    "general_software": 200,
+    "mobile_app": 200,
+    "operating_system": 200,
+    "programming_language": 200,
+    "software_framework": 200,
+    "video_game": 200
   },
   "batches_by_target": {
     "database_management_system": 1,

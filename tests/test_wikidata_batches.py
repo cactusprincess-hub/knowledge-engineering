@@ -43,12 +43,15 @@ class WikidataBatchTests(unittest.TestCase):
                 batch_size=100,
                 result_count=40,
                 skipped_existing=True,
+                status="failed",
+                error_message="429 Too Many Requests",
             ),
         ]
         summary = summarise_manifest(entries)
         self.assertEqual(summary["batch_file_count"], 2)
         self.assertEqual(summary["raw_record_count"], 140)
         self.assertEqual(summary["skipped_existing_batch_count"], 1)
+        self.assertEqual(summary["failed_batch_count"], 1)
         self.assertEqual(summary["records_by_target"]["programming_language"], 140)
 
 

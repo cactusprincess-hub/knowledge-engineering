@@ -24,6 +24,15 @@ from software_ai_kg.wikidata_batches import (
 import fetch_wikidata
 
 
+def write_log(message: str, log_file: Path | None) -> None:
+    timestamped = f"[{datetime.now(UTC).isoformat()}] {message}"
+    print(timestamped)
+    if log_file is not None:
+        log_file.parent.mkdir(parents=True, exist_ok=True)
+        with log_file.open("a", encoding="utf-8") as handle:
+            handle.write(timestamped + "\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -52,6 +61,7 @@ def main() -> None:
     parser.add_argument("--only-target", type=str, default=None)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--insecure", action="store_true")
+    parser.add_argument("--log-file", type=Path, default=None)
     args = parser.parse_args()
 
     config = load_json(args.config)
@@ -71,6 +81,10 @@ def main() -> None:
             if output_path.exists() and not args.overwrite:
                 payload = load_json(output_path)
                 result_count = len(payload.get("results", {}).get("bindings", []))
+                write_log(
+                    f"Skip existing batch target={target['name']} offset={offset} result_count={result_count}",
+                    args.log_file,
+                )
                 manifest_entries.append(
                     build_manifest(
                         target=target,
@@ -84,25 +98,53 @@ def main() -> None:
                 )
                 continue
 
-            payload = fetch_wikidata.fetch_entities(
-                limit=batch_size,
-                offset=offset,
-                class_qid=target["qid"],
-                insecure=args.insecure,
+            write_log(
+                f"Fetch start target={target['name']} qid={target['qid']} offset={offset} limit={batch_size}",
+                args.log_file,
             )
-            save_json(output_path, payload)
-            result_count = len(payload.get("results", {}).get("bindings", []))
-            manifest_entries.append(
-                build_manifest(
-                    target=target,
-                    output_path=output_path,
-                    batch_index=batch_index,
+            try:
+                payload = fetch_wikidata.fetch_entities(
+                    limit=batch_size,
                     offset=offset,
-                    batch_size=batch_size,
-                    result_count=result_count,
-                    skipped_existing=False,
+                    class_qid=target["qid"],
+                    insecure=args.insecure,
                 )
-            )
+                save_json(output_path, payload)
+                result_count = len(payload.get("results", {}).get("bindings", []))
+                manifest_entries.append(
+                    build_manifest(
+                        target=target,
+                        output_path=output_path,
+                        batch_index=batch_index,
+                        offset=offset,
+                        batch_size=batch_size,
+                        result_count=result_count,
+                        skipped_existing=False,
+                    )
+                )
+                write_log(
+                    f"Fetch success target={target['name']} offset={offset} result_count={result_count}",
+                    args.log_file,
+                )
+            except Exception as exc:
+                manifest_entries.append(
+                    build_manifest(
+                        target=target,
+                        output_path=output_path,
+                        batch_index=batch_index,
+                        offset=offset,
+                        batch_size=batch_size,
+                        result_count=0,
+                        skipped_existing=False,
+                        status="failed",
+                        error_message=str(exc),
+                    )
+                )
+                write_log(
+                    f"Fetch failed target={target['name']} offset={offset} error={exc}",
+                    args.log_file,
+                )
+                break
 
             if result_count < batch_size:
                 break
