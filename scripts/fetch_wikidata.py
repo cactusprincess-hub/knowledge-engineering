@@ -19,7 +19,7 @@ from software_ai_kg.io_utils import save_json
 SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
 
 SOFTWARE_QUERY = """
-SELECT ?item ?itemLabel ?instanceLabel ?description WHERE {
+SELECT ?item ?itemLabel ?instance ?instanceLabel ?description WHERE {
   ?item wdt:P31/wdt:P279* wd:Q7397.
   OPTIONAL { ?item schema:description ?description FILTER(LANG(?description) = "en") }
   OPTIONAL { ?item wdt:P31 ?instance . }
@@ -57,7 +57,7 @@ def main() -> None:
 
     payload = fetch_entities(args.limit)
     save_json(args.output, payload)
-    print(f"Saved raw Wikidata results to {args.output}")
+    print(f"Saved raw Wikidata results to {args.output} (limit={args.limit})")
 
 
 if __name__ == "__main__":

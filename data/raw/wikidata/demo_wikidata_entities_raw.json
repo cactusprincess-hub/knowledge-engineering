@@ -1,0 +1,44 @@
+{
+  "head": {
+    "vars": ["item", "itemLabel", "instance", "instanceLabel", "description"]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q1406"},
+        "itemLabel": {"xml:lang": "en", "type": "literal", "value": "Windows 11"},
+        "instance": {"type": "uri", "value": "http://www.wikidata.org/entity/Q9135"},
+        "instanceLabel": {"xml:lang": "en", "type": "literal", "value": "operating system"},
+        "description": {"xml:lang": "en", "type": "literal", "value": "desktop operating system developed by Microsoft"}
+      },
+      {
+        "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q28865"},
+        "itemLabel": {"xml:lang": "en", "type": "literal", "value": "Python"},
+        "instance": {"type": "uri", "value": "http://www.wikidata.org/entity/Q9143"},
+        "instanceLabel": {"xml:lang": "en", "type": "literal", "value": "programming language"},
+        "description": {"xml:lang": "en", "type": "literal", "value": "high-level general-purpose programming language"}
+      },
+      {
+        "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q22937169"},
+        "itemLabel": {"xml:lang": "en", "type": "literal", "value": "PyTorch"},
+        "instance": {"type": "uri", "value": "http://www.wikidata.org/entity/Q7397"},
+        "instanceLabel": {"xml:lang": "en", "type": "literal", "value": "software"},
+        "description": {"xml:lang": "en", "type": "literal", "value": "machine learning library for Python"}
+      },
+      {
+        "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q850"},
+        "itemLabel": {"xml:lang": "en", "type": "literal", "value": "MySQL"},
+        "instance": {"type": "uri", "value": "http://www.wikidata.org/entity/Q3932296"},
+        "instanceLabel": {"xml:lang": "en", "type": "literal", "value": "database management system"},
+        "description": {"xml:lang": "en", "type": "literal", "value": "open-source relational database management system"}
+      },
+      {
+        "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q95"},
+        "itemLabel": {"xml:lang": "en", "type": "literal", "value": "Google"},
+        "instance": {"type": "uri", "value": "http://www.wikidata.org/entity/Q6881511"},
+        "instanceLabel": {"xml:lang": "en", "type": "literal", "value": "business"},
+        "description": {"xml:lang": "en", "type": "literal", "value": "American technology company"}
+      }
+    ]
+  }
+}

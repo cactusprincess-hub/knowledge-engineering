@@ -17,7 +17,7 @@ def clean_description(text: str, max_chars: int = 50) -> str:
     cleaned = re.sub(r"\([^)]*来源[^)]*\)", "", cleaned)
     for pattern in NOISE_PATTERNS:
         cleaned = re.sub(pattern, "", cleaned)
-    cleaned = re.sub(r"\s+", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
 
     for separator in ("。", "；", ";", ".", "！", "!", "，", ","):
         if separator in cleaned:

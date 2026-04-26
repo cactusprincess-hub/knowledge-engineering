@@ -1,0 +1,65 @@
+{
+  "default_category": "开发库与SDK",
+  "rules": [
+    {
+      "category": "操作系统",
+      "keywords": ["operating system", "操作系统", "linux distribution", "desktop operating system"]
+    },
+    {
+      "category": "编程语言",
+      "keywords": ["programming language", "编程语言", "scripting language", "language"]
+    },
+    {
+      "category": "数据库",
+      "keywords": ["database", "数据库", "dbms", "relational database", "document database"]
+    },
+    {
+      "category": "中间件",
+      "keywords": ["middleware", "message broker", "application server", "中间件", "queue"]
+    },
+    {
+      "category": "办公协作",
+      "keywords": ["office suite", "productivity", "collaboration", "办公", "文档", "协作"]
+    },
+    {
+      "category": "社交通信",
+      "keywords": ["messenger", "social network", "chat", "通信", "社交", "messaging"]
+    },
+    {
+      "category": "图像与视频处理",
+      "keywords": ["image editor", "video editor", "graphics software", "photo", "video", "图像", "视频"]
+    },
+    {
+      "category": "金融与商业",
+      "keywords": ["accounting", "trading", "finance", "banking", "financial", "商业", "金融"]
+    },
+    {
+      "category": "大语言模型",
+      "keywords": ["large language model", "llm", "foundation model", "language model", "大语言模型"]
+    },
+    {
+      "category": "扩散与生成模型",
+      "keywords": ["diffusion model", "text-to-image", "image generation", "video generation", "生成模型", "扩散模型"]
+    },
+    {
+      "category": "智能助手",
+      "keywords": ["assistant", "copilot", "agent", "chatbot", "智能助手"]
+    },
+    {
+      "category": "智能体工作流",
+      "keywords": ["workflow", "orchestration", "multi-agent", "智能体工作流"]
+    },
+    {
+      "category": "深度学习框架",
+      "keywords": ["deep learning framework", "machine learning library", "neural network library", "深度学习框架"]
+    },
+    {
+      "category": "编译器与构建工具",
+      "keywords": ["compiler", "build tool", "package manager", "编译器", "构建工具"]
+    },
+    {
+      "category": "开发库与SDK",
+      "keywords": ["software library", "sdk", "api", "framework", "library", "软件库", "开发库"]
+    }
+  ]
+}

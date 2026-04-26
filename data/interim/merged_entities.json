@@ -4,7 +4,7 @@
       "id": "Q1406",
       "entity": "Windows 11",
       "category": "操作系统",
-      "description": "Windows11是微软推出的新一代操作系统",
+      "description": "Windows 11是微软推出的新一代操作系统",
       "source": [
         "Baidu Baike",
         "Wikidata"
@@ -28,7 +28,7 @@
       "id": "Q28865-PyTorch",
       "entity": "PyTorch",
       "category": "深度学习框架",
-      "description": "由Meta推出的开源深度学习框架，广泛用于研究和工业训练部署",
+      "description": "由 Meta 推出的开源深度学习框架，广泛用于研究和工业训练部署",
       "source": [
         "Wikidata"
       ],

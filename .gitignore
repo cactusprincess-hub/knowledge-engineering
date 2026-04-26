@@ -6,3 +6,8 @@ __pycache__/
 .mypy_cache/
 data/raw/**/tmp/
 outputs/tmp/
+data/raw/wikidata/wikidata_entities_raw.json
+data/raw/wikidata/*.json.gz
+data/raw/wikidata/*.jsonl
+data/interim/wikidata_entities_normalized.json
+*.parquet

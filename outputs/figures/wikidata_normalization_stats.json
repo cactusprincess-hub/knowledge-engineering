@@ -1,0 +1,12 @@
+{
+  "raw_records": 5,
+  "kept_records": 4,
+  "dropped_records": 1,
+  "missing_description_fallbacks": 0,
+  "category_breakdown": {
+    "操作系统": 1,
+    "数据库": 1,
+    "深度学习框架": 1,
+    "编程语言": 1
+  }
+}
