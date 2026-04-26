@@ -96,6 +96,12 @@ def main() -> None:
                         skipped_existing=True,
                     )
                 )
+                if result_count < batch_size:
+                    write_log(
+                        f"Stop target={target['name']} after existing short batch offset={offset} result_count={result_count}",
+                        args.log_file,
+                    )
+                    break
                 continue
 
             write_log(
