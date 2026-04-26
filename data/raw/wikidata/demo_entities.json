@@ -1,0 +1,34 @@
+[
+  {
+    "id": "Q1406",
+    "entity": "Windows 11",
+    "category": "操作系统",
+    "description": "微软开发的新一代桌面操作系统，提供全新界面并增强安全与协作能力。",
+    "source": "Wikidata",
+    "level": "3"
+  },
+  {
+    "id": "Q28865",
+    "entity": "Python",
+    "category": "编程语言",
+    "description": "一种强调可读性和高生产力的通用高级编程语言。",
+    "source": "Wikidata",
+    "level": "3"
+  },
+  {
+    "id": "Q28865-PyTorch",
+    "entity": "PyTorch",
+    "category": "深度学习框架",
+    "description": "由 Meta 推出的开源深度学习框架，广泛用于研究和工业训练部署。",
+    "source": "Wikidata",
+    "level": "3"
+  },
+  {
+    "id": "Q850",
+    "entity": "MySQL",
+    "category": "数据库",
+    "description": "一种流行的开源关系型数据库管理系统。",
+    "source": "Wikidata",
+    "level": "3"
+  }
+]

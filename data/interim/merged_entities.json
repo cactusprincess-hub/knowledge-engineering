@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "id": "Q1406",
+      "entity": "Windows 11",
+      "category": "操作系统",
+      "description": "Windows11是微软推出的新一代操作系统",
+      "source": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "level": "3",
+      "aliases": [
+        "Windows 11"
+      ]
+    },
+    {
+      "id": "Q28865",
+      "entity": "Python",
+      "category": "编程语言",
+      "description": "一种强调可读性和高生产力的通用高级编程语言",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "Q28865-PyTorch",
+      "entity": "PyTorch",
+      "category": "深度学习框架",
+      "description": "由Meta推出的开源深度学习框架，广泛用于研究和工业训练部署",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "Q850",
+      "entity": "MySQL",
+      "category": "数据库",
+      "description": "一种流行的开源关系型数据库管理系统",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "B1002",
+      "entity": "飞书",
+      "category": "办公协作",
+      "description": "飞书是字节跳动推出的企业协同办公平台，提供即时通信、文档、会议与流程管理功能",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "B1003",
+      "entity": "剪映",
+      "category": "图像与视频处理",
+      "description": "剪映是面向大众创作者的视频",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "B1004",
+      "entity": "麒麟操作系统",
+      "category": "操作系统",
+      "description": "麒麟操作系统是国产操作系统代表之一，面向党政和行业场景提供安全稳定的基础平台",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3"
+    },
+    {
+      "id": "F0001",
+      "entity": "DeepSeek-R1",
+      "category": "大语言模型",
+      "description": "由深度求索推出的推理增强型大语言模型",
+      "source": [
+        "arXiv"
+      ],
+      "level": "3",
+      "extra": {
+        "raw_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+      }
+    },
+    {
+      "id": "F0002",
+      "entity": "Sora",
+      "category": "扩散与生成模型",
+      "description": "由OpenAI提出的文本生成视频基础模型",
+      "source": [
+        "Tech Report"
+      ],
+      "level": "3",
+      "extra": {
+        "raw_title": "Sora: A Foundation Model for Video Generation"
+      }
+    },
+    {
+      "id": "F0003",
+      "entity": "Agentic Workflow",
+      "category": "智能体工作流",
+      "description": "强调多步骤规划与执行的智能体协同工作范式",
+      "source": [
+        "News"
+      ],
+      "level": "3",
+      "extra": {
+        "raw_title": "Agentic Workflow Is Reshaping Enterprise Automation"
+      }
+    }
+  ],
+  "qc_summary": {
+    "kept": 10,
+    "dropped_invalid_category": 0,
+    "dropped_bad_description": 0
+  }
+}

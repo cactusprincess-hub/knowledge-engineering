@@ -1,0 +1,12 @@
+{
+  "description_max_chars": 50,
+  "fuzzy_match_threshold": 95,
+  "source_priority": [
+    "Wikidata",
+    "Baidu Baike",
+    "News",
+    "Tech Report",
+    "GitHub Trending",
+    "arXiv"
+  ]
+}

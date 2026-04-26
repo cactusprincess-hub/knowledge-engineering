@@ -1,0 +1,35 @@
+[
+  {
+    "id": "F0001",
+    "entity": "DeepSeek-R1",
+    "category": "大语言模型",
+    "description": "由深度求索推出的推理增强型大语言模型",
+    "source": "arXiv",
+    "level": "3",
+    "extra": {
+      "raw_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+    }
+  },
+  {
+    "id": "F0002",
+    "entity": "Sora",
+    "category": "扩散与生成模型",
+    "description": "由OpenAI提出的文本生成视频基础模型",
+    "source": "Tech Report",
+    "level": "3",
+    "extra": {
+      "raw_title": "Sora: A Foundation Model for Video Generation"
+    }
+  },
+  {
+    "id": "F0003",
+    "entity": "Agentic Workflow",
+    "category": "智能体工作流",
+    "description": "强调多步骤规划与执行的智能体协同工作范式",
+    "source": "News",
+    "level": "3",
+    "extra": {
+      "raw_title": "Agentic Workflow Is Reshaping Enterprise Automation"
+    }
+  }
+]

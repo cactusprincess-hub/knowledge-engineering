@@ -1,0 +1,34 @@
+[
+  {
+    "id": "B1001",
+    "entity": "Windows 11",
+    "category": "操作系统",
+    "description": "Windows 11是微软推出的新一代操作系统，采用新的开始菜单、窗口布局和更深度的云与AI能力整合。",
+    "source": "Baidu Baike",
+    "level": "3"
+  },
+  {
+    "id": "B1002",
+    "entity": "飞书",
+    "category": "办公协作",
+    "description": "飞书是字节跳动推出的企业协同办公平台，提供即时通信、文档、会议与流程管理功能。",
+    "source": "Baidu Baike",
+    "level": "3"
+  },
+  {
+    "id": "B1003",
+    "entity": "剪映",
+    "category": "图像与视频处理",
+    "description": "剪映是面向大众创作者的视频编辑软件，支持剪辑、字幕、模板和智能生成能力。",
+    "source": "Baidu Baike",
+    "level": "3"
+  },
+  {
+    "id": "B1004",
+    "entity": "麒麟操作系统",
+    "category": "操作系统",
+    "description": "麒麟操作系统是国产操作系统代表之一，面向党政和行业场景提供安全稳定的基础平台。",
+    "source": "Baidu Baike",
+    "level": "3"
+  }
+]

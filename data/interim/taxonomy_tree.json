@@ -1,0 +1,77 @@
+{
+  "root": "软件与AI生态",
+  "removed_cycle_edges": [
+    {
+      "parent": "浏览器",
+      "child": "客户端软件"
+    },
+    {
+      "parent": "浏览器",
+      "child": "互联网应用"
+    }
+  ],
+  "dropped_multi_parent_edges": [
+    {
+      "parent": "客户端软件",
+      "child": "浏览器"
+    }
+  ],
+  "tree_edges": [
+    {
+      "parent": "互联网应用",
+      "child": "浏览器"
+    },
+    {
+      "parent": "人工智能模型与应用",
+      "child": "大语言模型"
+    },
+    {
+      "parent": "人工智能模型与应用",
+      "child": "扩散与生成模型"
+    },
+    {
+      "parent": "人工智能模型与应用",
+      "child": "智能体工作流"
+    },
+    {
+      "parent": "应用软件",
+      "child": "办公协作"
+    },
+    {
+      "parent": "应用软件",
+      "child": "社交通信"
+    },
+    {
+      "parent": "开发工具与框架",
+      "child": "深度学习框架"
+    },
+    {
+      "parent": "系统软件",
+      "child": "操作系统"
+    },
+    {
+      "parent": "系统软件",
+      "child": "数据库"
+    },
+    {
+      "parent": "系统软件",
+      "child": "编程语言"
+    },
+    {
+      "parent": "软件与AI生态",
+      "child": "人工智能模型与应用"
+    },
+    {
+      "parent": "软件与AI生态",
+      "child": "应用软件"
+    },
+    {
+      "parent": "软件与AI生态",
+      "child": "开发工具与框架"
+    },
+    {
+      "parent": "软件与AI生态",
+      "child": "系统软件"
+    }
+  ]
+}

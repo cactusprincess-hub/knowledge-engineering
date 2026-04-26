@@ -1,0 +1,19 @@
+{
+  "raw_entity_count": 11,
+  "deduplicated_entity_count": 10,
+  "final_entity_count": 10,
+  "removed_cycle_edges": 2,
+  "dropped_multi_parent_edges": 1,
+  "source_breakdown": {
+    "Baidu Baike": 4,
+    "News": 1,
+    "Tech Report": 1,
+    "Wikidata": 4,
+    "arXiv": 1
+  },
+  "qc_summary": {
+    "kept": 10,
+    "dropped_invalid_category": 0,
+    "dropped_bad_description": 0
+  }
+}
