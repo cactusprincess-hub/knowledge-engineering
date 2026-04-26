@@ -1,0 +1,49 @@
+{
+  "batch_size": 100,
+  "max_batches_per_target": 10,
+  "sleep_seconds": 1,
+  "targets": [
+    {
+      "name": "general_software",
+      "qid": "Q7397",
+      "label": "software",
+      "suggested_category": "开发库与SDK"
+    },
+    {
+      "name": "operating_system",
+      "qid": "Q9135",
+      "label": "operating system",
+      "suggested_category": "操作系统"
+    },
+    {
+      "name": "programming_language",
+      "qid": "Q9143",
+      "label": "programming language",
+      "suggested_category": "编程语言"
+    },
+    {
+      "name": "mobile_app",
+      "qid": "Q620615",
+      "label": "mobile app",
+      "suggested_category": "办公协作"
+    },
+    {
+      "name": "video_game",
+      "qid": "Q7889",
+      "label": "video game",
+      "suggested_category": "图像与视频处理"
+    },
+    {
+      "name": "database_management_system",
+      "qid": "Q3932296",
+      "label": "database management system",
+      "suggested_category": "数据库"
+    },
+    {
+      "name": "software_framework",
+      "qid": "Q271680",
+      "label": "software framework",
+      "suggested_category": "深度学习框架"
+    }
+  ]
+}

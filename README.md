@@ -100,3 +100,16 @@ python3 scripts/fetch_wikidata.py --limit 100 --insecure
 ```
 
 这个选项只建议在本地代理环境下使用。
+
+## Wikidata 扩量流程
+
+```bash
+python3 scripts/fetch_wikidata_batches.py --insecure
+```
+
+这个脚本会：
+
+- 按多个软件子类分批抓取
+- 将每个批次持久化到 `data/raw/wikidata/batches/`
+- 生成批次清单 `outputs/figures/wikidata_batch_manifest.json`
+- 生成规模统计 `outputs/figures/wikidata_scale_stats.json`

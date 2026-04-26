@@ -1,0 +1,63 @@
+{
+  "batch_file_count": 7,
+  "raw_records": 140,
+  "normalized_records_before_dedup": 128,
+  "deduplicated_records": 128,
+  "duplicate_records_removed": 0,
+  "dropped_records": 12,
+  "missing_description_fallbacks": 1,
+  "dropped_generic_description": 3,
+  "category_breakdown": {
+    "中间件": 2,
+    "图像与视频处理": 20,
+    "开发库与SDK": 43,
+    "操作系统": 18,
+    "数据库": 18,
+    "社交通信": 5,
+    "编程语言": 22
+  },
+  "files": [
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/database_management_system_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 19,
+      "dropped_records": 1
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/general_software_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 17,
+      "dropped_records": 3
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/mobile_app_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 19,
+      "dropped_records": 1
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/operating_system_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 18,
+      "dropped_records": 2
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/programming_language_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 20,
+      "dropped_records": 0
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/software_framework_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 19,
+      "dropped_records": 1
+    },
+    {
+      "file": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/video_game_offset_00000.json",
+      "raw_records": 20,
+      "kept_records": 16,
+      "dropped_records": 4
+    }
+  ]
+}

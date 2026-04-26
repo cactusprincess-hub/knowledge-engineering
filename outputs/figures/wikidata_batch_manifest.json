@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-04-26T11:33:51.468186+00:00",
+  "batch_size": 20,
+  "max_batches_requested": 1,
+  "entries": [
+    {
+      "target_name": "general_software",
+      "target_qid": "Q7397",
+      "target_label": "software",
+      "suggested_category": "开发库与SDK",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/general_software_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "operating_system",
+      "target_qid": "Q9135",
+      "target_label": "operating system",
+      "suggested_category": "操作系统",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/operating_system_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "programming_language",
+      "target_qid": "Q9143",
+      "target_label": "programming language",
+      "suggested_category": "编程语言",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/programming_language_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "mobile_app",
+      "target_qid": "Q620615",
+      "target_label": "mobile app",
+      "suggested_category": "办公协作",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/mobile_app_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "video_game",
+      "target_qid": "Q7889",
+      "target_label": "video game",
+      "suggested_category": "图像与视频处理",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/video_game_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "database_management_system",
+      "target_qid": "Q3932296",
+      "target_label": "database management system",
+      "suggested_category": "数据库",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/database_management_system_offset_00000.json",
+      "skipped_existing": false
+    },
+    {
+      "target_name": "software_framework",
+      "target_qid": "Q271680",
+      "target_label": "software framework",
+      "suggested_category": "深度学习框架",
+      "batch_index": 0,
+      "offset": 0,
+      "batch_size": 20,
+      "result_count": 20,
+      "output_path": "/Users/xiaoyuzhang/Desktop/大二下/知识工程/software_ai_kg/data/raw/wikidata/batches/software_framework_offset_00000.json",
+      "skipped_existing": false
+    }
+  ],
+  "summary": {
+    "batch_file_count": 7,
+    "raw_record_count": 140,
+    "skipped_existing_batch_count": 0,
+    "records_by_target": {
+      "database_management_system": 20,
+      "general_software": 20,
+      "mobile_app": 20,
+      "operating_system": 20,
+      "programming_language": 20,
+      "software_framework": 20,
+      "video_game": 20
+    },
+    "batches_by_target": {
+      "database_management_system": 1,
+      "general_software": 1,
+      "mobile_app": 1,
+      "operating_system": 1,
+      "programming_language": 1,
+      "software_framework": 1,
+      "video_game": 1
+    }
+  }
+}

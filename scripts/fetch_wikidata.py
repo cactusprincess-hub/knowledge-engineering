@@ -33,7 +33,7 @@ SELECT ?item ?itemLabel ?instance ?instanceLabel ?description WHERE {
   {
     SELECT DISTINCT ?item ?instance WHERE {
       ?item wdt:P31 ?instance.
-      ?instance wdt:P279* wd:Q7397.
+      ?instance wdt:P279* wd:{class_qid}.
     }
     LIMIT {limit}
     OFFSET {offset}
@@ -95,11 +95,17 @@ def discover_proxies() -> dict[str, str]:
 def fetch_entities(
     limit: int,
     offset: int = 0,
+    class_qid: str = "Q7397",
     retries: int = 3,
     sleep_seconds: int = 3,
     insecure: bool = False,
 ) -> dict:
-    query = SOFTWARE_QUERY.replace("{limit}", str(limit)).replace("{offset}", str(offset))
+    query = (
+        SOFTWARE_QUERY
+        .replace("{class_qid}", class_qid)
+        .replace("{limit}", str(limit))
+        .replace("{offset}", str(offset))
+    )
     headers = {
         "Accept": "application/sparql-results+json",
         "User-Agent": "software-ai-kg-course-project/0.1"
@@ -144,6 +150,12 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=5000)
     parser.add_argument("--offset", type=int, default=0)
     parser.add_argument(
+        "--class-qid",
+        type=str,
+        default="Q7397",
+        help="Wikidata class QID to expand through instance-of/subclass-of traversal.",
+    )
+    parser.add_argument(
         "--insecure",
         action="store_true",
         help="Disable TLS certificate verification when a local proxy intercepts HTTPS traffic.",
@@ -155,11 +167,16 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    payload = fetch_entities(args.limit, offset=args.offset, insecure=args.insecure)
+    payload = fetch_entities(
+        args.limit,
+        offset=args.offset,
+        class_qid=args.class_qid,
+        insecure=args.insecure,
+    )
     save_json(args.output, payload)
     print(
         f"Saved raw Wikidata results to {args.output} "
-        f"(limit={args.limit}, offset={args.offset}, insecure={args.insecure})"
+        f"(class_qid={args.class_qid}, limit={args.limit}, offset={args.offset}, insecure={args.insecure})"
     )
 
 
