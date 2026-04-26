@@ -82,7 +82,8 @@ python3 tests/test_taxonomy.py
 ## Wikidata 接入流程
 
 ```bash
-python3 scripts/fetch_wikidata.py --limit 1000
+python3 scripts/fetch_wikidata.py --limit 100
+python3 scripts/fetch_wikidata.py --limit 100 --offset 100
 python3 scripts/normalize_wikidata.py
 ```
 
@@ -91,3 +92,11 @@ python3 scripts/normalize_wikidata.py
 - `outputs/figures/wikidata_normalization_stats.json`
 - 可选的本地大文件 `data/raw/wikidata/wikidata_entities_raw.json`
 - 可选的本地中间文件 `data/interim/wikidata_entities_normalized.json`
+
+如果本机代理会拦截 HTTPS 证书，可以在抓取时加：
+
+```bash
+python3 scripts/fetch_wikidata.py --limit 100 --insecure
+```
+
+这个选项只建议在本地代理环境下使用。

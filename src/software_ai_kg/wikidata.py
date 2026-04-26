@@ -16,6 +16,15 @@ NON_SOFTWARE_HINTS = (
     "country",
 )
 
+GENERIC_DESCRIPTION_HINTS = {
+    "software",
+    "application software",
+    "computer software",
+    "service",
+    "application",
+    "program",
+}
+
 
 def _binding_text(binding: dict, key: str) -> str:
     value = binding.get(key, {})
@@ -66,6 +75,7 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
     entities: list[EntityRecord] = []
     dropped_records = 0
     missing_description = 0
+    dropped_generic_description = 0
     category_counter: Counter[str] = Counter()
 
     for binding in bindings:
@@ -84,6 +94,10 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
         if not description:
             missing_description += 1
             description = instance_label or "Wikidata software entity without description"
+        if _normalize_text(description) in GENERIC_DESCRIPTION_HINTS:
+            dropped_records += 1
+            dropped_generic_description += 1
+            continue
 
         category = infer_category(item_label, instance_label, description, rules_config)
         category_counter[category] += 1
@@ -108,6 +122,7 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
         "kept_records": len(entities),
         "dropped_records": dropped_records,
         "missing_description_fallbacks": missing_description,
+        "dropped_generic_description": dropped_generic_description,
         "category_breakdown": dict(sorted(category_counter.items())),
     }
     return entities, stats

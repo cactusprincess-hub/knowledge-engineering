@@ -19,11 +19,11 @@
     },
     {
       "category": "办公协作",
-      "keywords": ["office suite", "productivity", "collaboration", "办公", "文档", "协作"]
+      "keywords": ["office suite", "productivity", "collaboration", "groupware", "办公", "文档", "协作"]
     },
     {
       "category": "社交通信",
-      "keywords": ["messenger", "social network", "chat", "通信", "社交", "messaging"]
+      "keywords": ["messenger", "social network", "social networking", "chat", "instant messaging", "messaging", "e-mail client", "telecommunications service", "通信", "社交"]
     },
     {
       "category": "图像与视频处理",
@@ -59,7 +59,7 @@
     },
     {
       "category": "开发库与SDK",
-      "keywords": ["software library", "sdk", "api", "framework", "library", "软件库", "开发库"]
+      "keywords": ["software library", "sdk", "api", "framework", "library", "utility", "client software", "software package", "软件库", "开发库"]
     }
   ]
 }

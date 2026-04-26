@@ -13,6 +13,8 @@
 具体任务：
 
 1. 运行 `scripts/fetch_wikidata.py` 获取原始结果。
+   - 公共端点建议先做小批量：`--limit 100 --offset 0/100/200`
+   - 如果本地代理拦截 HTTPS 证书，可临时使用 `--insecure`
 2. 新建 `scripts/normalize_wikidata.py`，把 SPARQL 返回字段映射成：
    - `id`
    - `entity`
@@ -21,6 +23,7 @@
    - `source`
    - `level`
 3. 对缺失简介、异常类别、非软件实体做一次初筛。
+4. 记录 live 数据中的误分类样本，反向优化类别规则。
 
 交付标准：
 

@@ -36,6 +36,27 @@ class WikidataNormalizerTests(unittest.TestCase):
         self.assertEqual(category_by_name["PyTorch"], "深度学习框架")
         self.assertEqual(category_by_name["MySQL"], "数据库")
 
+    def test_normalize_payload_drops_generic_description(self) -> None:
+        payload = {
+            "results": {
+                "bindings": [
+                    {
+                        "item": {"value": "http://www.wikidata.org/entity/Q1"},
+                        "itemLabel": {"value": "GenericApp"},
+                        "instance": {"value": "http://www.wikidata.org/entity/Q7397"},
+                        "instanceLabel": {"value": "software"},
+                        "description": {"value": "software"},
+                    }
+                ]
+            }
+        }
+        rules = load_json(ROOT / "configs/wikidata_category_rules.json")
+
+        entities, stats = normalize_wikidata_payload(payload, rules)
+
+        self.assertEqual(entities, [])
+        self.assertEqual(stats["dropped_generic_description"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()
