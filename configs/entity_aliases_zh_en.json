@@ -1,0 +1,42 @@
+[
+  {
+    "canonical": "WeChat",
+    "aliases": ["WeChat", "微信", "Weixin"]
+  },
+  {
+    "canonical": "Douyin",
+    "aliases": ["Douyin", "抖音", "TikTok China"]
+  },
+  {
+    "canonical": "DingTalk",
+    "aliases": ["DingTalk", "钉钉"]
+  },
+  {
+    "canonical": "Feishu",
+    "aliases": ["Feishu", "Lark", "飞书"]
+  },
+  {
+    "canonical": "Jianying",
+    "aliases": ["Jianying", "CapCut China", "剪映"]
+  },
+  {
+    "canonical": "UnionTech OS",
+    "aliases": ["UnionTech OS", "UOS", "统信UOS", "统信操作系统"]
+  },
+  {
+    "canonical": "Kylin OS",
+    "aliases": ["Kylin OS", "麒麟操作系统", "银河麒麟"]
+  },
+  {
+    "canonical": "WPS Office",
+    "aliases": ["WPS Office", "WPS", "金山办公"]
+  },
+  {
+    "canonical": "QQ",
+    "aliases": ["QQ", "腾讯QQ"]
+  },
+  {
+    "canonical": "Alipay",
+    "aliases": ["Alipay", "支付宝"]
+  }
+]

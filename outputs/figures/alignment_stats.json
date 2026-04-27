@@ -1,0 +1,58 @@
+{
+  "input_records": 33,
+  "deduplicated_records": 27,
+  "duplicate_records_removed": 6,
+  "multi_source_entity_count": 3,
+  "aligned_examples": [
+    {
+      "entity": "Windows 11",
+      "matched_entity": "Windows 11",
+      "sources": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "aliases": [
+        "Windows 11"
+      ]
+    },
+    {
+      "entity": "WeChat",
+      "matched_entity": "微信",
+      "sources": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "aliases": [
+        "WeChat",
+        "Weixin",
+        "微信"
+      ]
+    },
+    {
+      "entity": "WPS Office",
+      "matched_entity": "WPS Office",
+      "sources": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "aliases": [
+        "WPS",
+        "WPS Office",
+        "金山办公"
+      ]
+    }
+  ],
+  "source_breakdown": {
+    "Baidu Baike": 21,
+    "News": 1,
+    "Tech Report": 1,
+    "Wikidata": 6,
+    "arXiv": 1
+  },
+  "final_records_after_qc": 27,
+  "qc_summary": {
+    "kept": 27,
+    "dropped_invalid_category": 0,
+    "dropped_bad_description": 0
+  }
+}

@@ -147,3 +147,23 @@ python3 scripts/generate_taxonomy_report.py
 - 典型环路案例
 - 单父节点归并案例
 - 一棵清晰的树状层级结构
+
+## 中文增强与多源融合
+
+```bash
+python3 scripts/merge_sources.py
+```
+
+融合流程会读取：
+
+- `data/raw/wikidata/demo_entities.json`
+- `data/raw/baidubaike/demo_entities.json`
+- `data/raw/baidubaike/seed_cn_software.json`
+- `configs/entity_aliases_zh_en.json`
+
+输出：
+
+- `data/interim/merged_entities.json`
+- `outputs/figures/alignment_stats.json`
+
+其中 `alignment_stats.json` 会记录去重数量、多源融合实体数和典型中英对齐案例。

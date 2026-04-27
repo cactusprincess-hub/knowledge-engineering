@@ -45,34 +45,286 @@
       "level": "3"
     },
     {
+      "id": "Q384496",
+      "entity": "WeChat",
+      "category": "社交通信",
+      "description": "微信是腾讯推出的即时通信与移动社交应用",
+      "source": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "level": "3",
+      "aliases": [
+        "WeChat",
+        "Weixin",
+        "微信"
+      ]
+    },
+    {
+      "id": "Q1059623",
+      "entity": "WPS Office",
+      "category": "办公协作",
+      "description": "WPS Office是金山办公推出的办公软件套件",
+      "source": [
+        "Baidu Baike",
+        "Wikidata"
+      ],
+      "level": "3",
+      "aliases": [
+        "WPS",
+        "WPS Office",
+        "金山办公"
+      ]
+    },
+    {
       "id": "B1002",
       "entity": "飞书",
       "category": "办公协作",
-      "description": "飞书是字节跳动推出的企业协同办公平台，提供即时通信、文档、会议与流程管理功能",
+      "description": "飞书是字节跳动推出的企业协同办公平台",
       "source": [
         "Baidu Baike"
       ],
-      "level": "3"
+      "level": "3",
+      "aliases": [
+        "Feishu",
+        "Lark",
+        "飞书"
+      ]
     },
     {
       "id": "B1003",
       "entity": "剪映",
       "category": "图像与视频处理",
-      "description": "剪映是面向大众创作者的视频",
+      "description": "剪映是面向大众创作者的视频；剪映是面向创作者的视频剪辑软件，支持字幕、模板、特效和智能剪辑功能",
       "source": [
         "Baidu Baike"
       ],
-      "level": "3"
+      "level": "3",
+      "aliases": [
+        "CapCut China",
+        "Jianying",
+        "剪映"
+      ]
     },
     {
       "id": "B1004",
       "entity": "麒麟操作系统",
       "category": "操作系统",
-      "description": "麒麟操作系统是国产操作系统代表之一，面向党政和行业场景提供安全稳定的基础平台",
+      "description": "麒麟操作系统是国产操作系统代表之一",
       "source": [
         "Baidu Baike"
       ],
-      "level": "3"
+      "level": "3",
+      "aliases": [
+        "Kylin OS",
+        "银河麒麟",
+        "麒麟操作系统"
+      ]
+    },
+    {
+      "id": "B-CN-0002",
+      "entity": "抖音",
+      "category": "图像与视频处理",
+      "description": "抖音是字节跳动推出的短视频平台，提供视频创作、推荐分发和直播服务",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Douyin",
+        "TikTok China",
+        "抖音"
+      ]
+    },
+    {
+      "id": "B-CN-0003",
+      "entity": "钉钉",
+      "category": "办公协作",
+      "description": "钉钉是阿里巴巴推出的企业协同办公平台，提供沟通、会议、文档和组织管理能力",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "DingTalk",
+        "钉钉"
+      ]
+    },
+    {
+      "id": "B-CN-0006",
+      "entity": "统信UOS",
+      "category": "操作系统",
+      "description": "统信UOS是统信软件推出的国产桌面与服务器操作系统",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "UOS",
+        "UnionTech OS",
+        "统信UOS",
+        "统信操作系统"
+      ]
+    },
+    {
+      "id": "B-CN-0008",
+      "entity": "深信服",
+      "category": "开发库与SDK",
+      "description": "深信服提供网络安全、云计算和基础架构相关的软件产品与解决方案",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Sangfor"
+      ]
+    },
+    {
+      "id": "B-CN-0010",
+      "entity": "腾讯QQ",
+      "category": "社交通信",
+      "description": "腾讯QQ是腾讯推出的即时通信软件，支持聊天、群组、文件传输和社交服务",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "QQ",
+        "腾讯QQ"
+      ]
+    },
+    {
+      "id": "B-CN-0011",
+      "entity": "支付宝",
+      "category": "金融与商业",
+      "description": "支付宝是蚂蚁集团推出的移动支付与数字生活服务平台",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Alipay",
+        "支付宝"
+      ]
+    },
+    {
+      "id": "B-CN-0012",
+      "entity": "腾讯会议",
+      "category": "办公协作",
+      "description": "腾讯会议是腾讯推出的在线会议软件，支持音视频会议、屏幕共享和协作沟通",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Tencent Meeting",
+        "VooV Meeting"
+      ]
+    },
+    {
+      "id": "B-CN-0013",
+      "entity": "企业微信",
+      "category": "办公协作",
+      "description": "企业微信是腾讯推出的企业通信与办公协作工具，连接组织内部和微信生态",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "WeCom"
+      ]
+    },
+    {
+      "id": "B-CN-0014",
+      "entity": "百度网盘",
+      "category": "办公协作",
+      "description": "百度网盘是百度推出的云存储服务，支持文件备份、同步、分享和在线预览",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Baidu Netdisk"
+      ]
+    },
+    {
+      "id": "B-CN-0015",
+      "entity": "美图秀秀",
+      "category": "图像与视频处理",
+      "description": "美图秀秀是面向大众用户的图像美化与修图软件",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Meitu XiuXiu"
+      ]
+    },
+    {
+      "id": "B-CN-0016",
+      "entity": "快手",
+      "category": "图像与视频处理",
+      "description": "快手是短视频与直播平台，提供内容创作、推荐分发和社交互动功能",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Kuaishou"
+      ]
+    },
+    {
+      "id": "B-CN-0017",
+      "entity": "小红书",
+      "category": "社交通信",
+      "description": "小红书是生活方式社区平台，支持图文视频发布、内容推荐和社交互动",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Xiaohongshu",
+        "REDnote"
+      ]
+    },
+    {
+      "id": "B-CN-0018",
+      "entity": "高德地图",
+      "category": "生活服务",
+      "description": "高德地图是数字地图与导航软件，提供路线规划、实时路况和位置服务",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Amap"
+      ]
+    },
+    {
+      "id": "B-CN-0019",
+      "entity": "华为鸿蒙",
+      "category": "操作系统",
+      "description": "鸿蒙是华为推出的面向多设备协同的操作系统",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "HarmonyOS"
+      ]
+    },
+    {
+      "id": "B-CN-0020",
+      "entity": "百度输入法",
+      "category": "生活服务",
+      "description": "百度输入法是百度推出的中文输入软件，支持拼音、语音和智能联想输入",
+      "source": [
+        "Baidu Baike"
+      ],
+      "level": "3",
+      "aliases": [
+        "Baidu Input"
+      ]
     },
     {
       "id": "F0001",
@@ -115,7 +367,7 @@
     }
   ],
   "qc_summary": {
-    "kept": 10,
+    "kept": 27,
     "dropped_invalid_category": 0,
     "dropped_bad_description": 0
   }

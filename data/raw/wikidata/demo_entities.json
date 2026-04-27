@@ -30,5 +30,23 @@
     "description": "一种流行的开源关系型数据库管理系统。",
     "source": "Wikidata",
     "level": "3"
+  },
+  {
+    "id": "Q384496",
+    "entity": "WeChat",
+    "category": "社交通信",
+    "description": "Tencent-developed messaging, social media and mobile payment app.",
+    "source": "Wikidata",
+    "level": "3",
+    "aliases": ["微信"]
+  },
+  {
+    "id": "Q1059623",
+    "entity": "WPS Office",
+    "category": "办公协作",
+    "description": "Office suite developed by Kingsoft.",
+    "source": "Wikidata",
+    "level": "3",
+    "aliases": ["WPS", "金山办公"]
   }
 ]
