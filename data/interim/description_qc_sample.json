@@ -21,8 +21,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -46,8 +46,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -71,8 +71,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -95,8 +95,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -119,8 +119,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -146,8 +146,8 @@
         "long_description",
         "truncated_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -171,8 +171,8 @@
         "long_description",
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -195,8 +195,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -219,8 +219,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -243,8 +243,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -273,8 +273,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -298,8 +298,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -327,8 +327,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -351,8 +351,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -376,8 +376,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -401,8 +401,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -425,8 +425,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -449,8 +449,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -473,8 +473,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -497,8 +497,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -521,8 +521,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -546,8 +546,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -570,8 +570,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -594,8 +594,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -618,8 +618,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -643,8 +643,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -667,8 +667,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -692,8 +692,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -716,8 +716,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -740,8 +740,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -764,8 +764,8 @@
       "summary_reasons": [
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -789,8 +789,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -814,8 +814,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -839,8 +839,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -865,8 +865,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -889,8 +889,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -913,8 +913,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -937,8 +937,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -961,8 +961,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -985,8 +985,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1009,8 +1009,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1033,8 +1033,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1059,8 +1059,8 @@
         "english_description",
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1083,8 +1083,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1107,8 +1107,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1132,8 +1132,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1157,8 +1157,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1182,8 +1182,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1207,8 +1207,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1232,8 +1232,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1256,8 +1256,8 @@
       "summary_reasons": [
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1281,8 +1281,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1306,8 +1306,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1331,8 +1331,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1356,8 +1356,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1381,8 +1381,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1406,8 +1406,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1431,8 +1431,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1456,8 +1456,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1482,8 +1482,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1507,8 +1507,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1532,8 +1532,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1557,8 +1557,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1582,8 +1582,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1607,8 +1607,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1633,8 +1633,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1658,8 +1658,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1683,8 +1683,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1708,8 +1708,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1733,8 +1733,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1758,8 +1758,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1783,8 +1783,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1808,8 +1808,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1833,8 +1833,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1858,8 +1858,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1883,8 +1883,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1907,8 +1907,8 @@
       "summary_reasons": [
         "generic_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1932,8 +1932,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1956,8 +1956,8 @@
       "summary_reasons": [
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -1981,8 +1981,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2006,8 +2006,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2031,8 +2031,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2056,8 +2056,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2081,8 +2081,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2106,8 +2106,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2131,8 +2131,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2157,8 +2157,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2182,8 +2182,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2207,8 +2207,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2232,8 +2232,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2257,8 +2257,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2282,8 +2282,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2307,8 +2307,8 @@
         "qid_label",
         "english_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2332,8 +2332,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2357,8 +2357,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2382,8 +2382,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2407,8 +2407,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2432,8 +2432,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2457,8 +2457,8 @@
         "english_description",
         "short_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   },
   {
@@ -2482,8 +2482,8 @@
         "english_description",
         "long_description"
       ],
-      "summary_method": "offline_heuristic_llm_style",
-      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "summary_method": "rule_based_description_qc",
+      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
     }
   }
 ]

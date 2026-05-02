@@ -38,7 +38,7 @@ class SummaryQcTests(unittest.TestCase):
             processed[0]["extra"]["description_before_summary"],
             "free and open-source relational database management system",
         )
-        self.assertIn("summary_prompt", processed[0]["extra"])
+        self.assertIn("summary_instruction", processed[0]["extra"])
 
 
 if __name__ == "__main__":

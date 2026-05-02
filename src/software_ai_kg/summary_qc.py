@@ -95,10 +95,8 @@ def summarize_records(records: list[dict], limit: int = 100, max_chars: int = 30
         extra = dict(updated.get("extra", {}))
         extra["description_before_summary"] = before
         extra["summary_reasons"] = reasons
-        extra["summary_method"] = "offline_heuristic_llm_style"
-        extra["summary_prompt"] = (
-            "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
-        )
+        extra["summary_method"] = "rule_based_description_qc"
+        extra["summary_instruction"] = "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
         updated["extra"] = extra
         processed.append(updated)
 

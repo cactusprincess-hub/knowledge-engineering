@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create LLM-style description summaries for noisy entity records."""
+"""Create standardized description summaries for noisy entity records."""
 
 from __future__ import annotations
 
@@ -33,12 +33,12 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=Path,
-        default=ROOT / "data/interim/llm_summarized_entities_sample.json",
+        default=ROOT / "data/interim/description_qc_sample.json",
     )
     parser.add_argument(
         "--stats-output",
         type=Path,
-        default=ROOT / "outputs/figures/llm_qc_stats.json",
+        default=ROOT / "outputs/figures/description_qc_stats.json",
     )
     parser.add_argument("--limit", type=int, default=100)
     parser.add_argument("--max-chars", type=int, default=30)
@@ -49,7 +49,7 @@ def main() -> None:
     save_json(args.output, processed)
     save_json(args.stats_output, stats)
     print(
-        f"Saved LLM-style summaries to {args.output} "
+        f"Saved description summaries to {args.output} "
         f"(candidates={stats['candidate_records']}, processed={stats['processed_records']})"
     )
 
