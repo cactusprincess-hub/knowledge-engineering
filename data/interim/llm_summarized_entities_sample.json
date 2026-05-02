@@ -1,0 +1,2489 @@
+[
+  {
+    "id": "Q80689",
+    "entity": "Q80689",
+    "category": "数据库",
+    "description": "属于数据库类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "database manager part of the Microsoft 365 package",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "database manager part of the Microsoft 365 package",
+      "summary_reasons": [
+        "qid_label",
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q192490",
+    "entity": "PostgreSQL",
+    "category": "数据库",
+    "description": "PostgreSQL是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "free and open-source relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "free and open-source relational database managemen",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q850",
+    "entity": "Q850",
+    "category": "数据库",
+    "description": "属于数据库类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "SQL database engine software",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "SQL database engine software",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q60463",
+    "entity": "Ingres",
+    "category": "数据库",
+    "description": "Ingres是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "database software",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "database software",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q261744",
+    "entity": "Firebird",
+    "category": "数据库",
+    "description": "Firebird是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q319417",
+    "entity": "Q319417",
+    "category": "数据库",
+    "description": "属于数据库类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q35687379",
+      "instance_label": "serverless relational database management system",
+      "raw_description": "serverless relational database management system (RDBMS)",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "serverless relational database management system (",
+      "summary_reasons": [
+        "qid_label",
+        "english_description",
+        "long_description",
+        "truncated_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q787177",
+    "entity": "MariaDB",
+    "category": "数据库",
+    "description": "MariaDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "database management system, relational, open source, community developed fork of MySQL",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "database management system",
+      "summary_reasons": [
+        "long_description",
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q951374",
+    "entity": "SAP HANA",
+    "category": "数据库",
+    "description": "SAP HANA是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1012765",
+    "entity": "SQL Server Express",
+    "category": "数据库",
+    "description": "SQL Server Express是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1050734",
+    "entity": "IBM Informix",
+    "category": "数据库",
+    "description": "IBM Informix是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1150391",
+    "entity": "InterSystems Caché",
+    "category": "数据库",
+    "description": "InterSystems Caché是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "commercial operational database management system from InterSystems",
+      "batch_targets": [
+        "database_management_system",
+        "programming_language"
+      ],
+      "overlap_categories": [
+        "数据库",
+        "编程语言"
+      ],
+      "description_before_summary": "commercial operational database management system ",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1671054",
+    "entity": "SESAM",
+    "category": "数据库",
+    "description": "SESAM是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database developed by Fujitsu Siemens",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database developed by Fujitsu Siemens",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1779923",
+    "entity": "Paradox",
+    "category": "数据库",
+    "description": "Paradox是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system",
+        "programming_language"
+      ],
+      "overlap_categories": [
+        "数据库",
+        "编程语言"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2143312",
+    "entity": "MaxDB",
+    "category": "数据库",
+    "description": "MaxDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2247564",
+    "entity": "SQL Anywhere",
+    "category": "数据库",
+    "description": "SQL Anywhere是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "proprietary relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "proprietary relational database management system",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2357154",
+    "entity": "Strozzi NoSQL",
+    "category": "数据库",
+    "description": "Strozzi NoSQL是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "a shell-based relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "a shell-based relational database management syste",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2667195",
+    "entity": "MSDE",
+    "category": "数据库",
+    "description": "MSDE是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q3991449",
+    "entity": "TimesTen",
+    "category": "数据库",
+    "description": "TimesTen是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q4048047",
+    "entity": "Oracle Rdb",
+    "category": "数据库",
+    "description": "Oracle Rdb是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5014224",
+    "entity": "CSQL",
+    "category": "数据库",
+    "description": "CSQL是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "database Management System",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "database Management System",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5227421",
+    "entity": "Datablitz",
+    "category": "数据库",
+    "description": "Datablitz是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5627844",
+    "entity": "H-Store",
+    "category": "数据库",
+    "description": "H-Store是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "a relational database management system designed for online transaction processing.",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "a relational database management system designed f",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5969010",
+    "entity": "IBM SQL/DS",
+    "category": "数据库",
+    "description": "IBM SQL/DS是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q6862049",
+    "entity": "Mimer SQL",
+    "category": "数据库",
+    "description": "Mimer SQL是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q7557804",
+    "entity": "solidDB",
+    "category": "数据库",
+    "description": "solidDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q7935239",
+    "entity": "Virtuoso Universal Server",
+    "category": "数据库",
+    "description": "Virtuoso Universal Server是数据库相",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data Integration Middleware, Linked Data Deployment, and HTTP Application Server Platform",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Virtuoso is a high-performance and scalable Multi-",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q12621393",
+    "entity": "Tibero",
+    "category": "数据库",
+    "description": "Tibero是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Relational Database Management System",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Relational Database Management System",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q15275385",
+    "entity": "SingleStore",
+    "category": "数据库",
+    "description": "SingleStore是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "distributed, in-memory database",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "distributed",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q17189775",
+    "entity": "HiRDB",
+    "category": "数据库",
+    "description": "HiRDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q20988755",
+    "entity": "SQream DB",
+    "category": "数据库",
+    "description": "SQream DB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q28975208",
+    "entity": "POSTGRES",
+    "category": "数据库",
+    "description": "POSTGRES是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "discontinued database software, predecessor to PostgreSQL",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "discontinued database software",
+      "summary_reasons": [
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q56296429",
+    "entity": "NitrosBase",
+    "category": "数据库",
+    "description": "NitrosBase是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Russian high-performance multi-model database system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Russian high-performance multi-model database syst",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q107477536",
+    "entity": "EdgeDB",
+    "category": "数据库",
+    "description": "EdgeDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "Open source relational database management system queried with EdgeQL",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "Open source relational database management system ",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q122920886",
+    "entity": "Polypheny",
+    "category": "数据库",
+    "description": "Polypheny是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "multi-model database system optimized for heterogeneous workloads and supporting multiple query languages",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "multi-model database system optimized for heteroge",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q135228372",
+    "entity": "Q135228372",
+    "category": "数据库",
+    "description": "属于数据库类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q35687379",
+      "instance_label": "serverless relational database management system",
+      "raw_description": "serverless relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "serverless relational database management system",
+      "summary_reasons": [
+        "qid_label",
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q4652447",
+    "entity": "ALTIBASE HDB",
+    "category": "数据库",
+    "description": "ALTIBASE HDB是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5204387",
+    "entity": "dBASE Mac",
+    "category": "数据库",
+    "description": "dBASE Mac是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5968814",
+    "entity": "IBM DB2 Express-C",
+    "category": "数据库",
+    "description": "IBM DB2 Express-C是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q5968936",
+    "entity": "IBM Peterlee Relational Test Vehicle",
+    "category": "数据库",
+    "description": "IBM Peterlee Relational Test V",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q7207911",
+    "entity": "PointBase",
+    "category": "数据库",
+    "description": "PointBase是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q7276282",
+    "entity": "REAL Server",
+    "category": "数据库",
+    "description": "REAL Server是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q7392738",
+    "entity": "SQL Server Agent",
+    "category": "数据库",
+    "description": "SQL Server Agent是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q11372689",
+    "entity": "Q11372689",
+    "category": "数据库",
+    "description": "属于数据库类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "qid_label",
+        "english_description",
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q16884758",
+    "entity": "IBM IS1",
+    "category": "数据库",
+    "description": "IBM IS1是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q65746013",
+    "entity": "Teradata Database",
+    "category": "数据库",
+    "description": "Teradata Database是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q3932296",
+      "instance_label": "relational database management system",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "database_management_system"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q29209036",
+    "entity": "Windows Installer Package",
+    "category": "开发库与SDK",
+    "description": "Windows Installer Package是开发库与",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "file format",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "file format",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q48189822",
+    "entity": "image",
+    "category": "开发库与SDK",
+    "description": "image是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "Octave package that provides functions for processing images",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Octave package that provides functions for process",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q53162078",
+    "entity": "man-db",
+    "category": "开发库与SDK",
+    "description": "man-db是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "standard Unix documentation system accessed using the man command",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "standard Unix documentation system accessed using ",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q54669942",
+    "entity": "PC/GENE",
+    "category": "开发库与SDK",
+    "description": "PC/GENE是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "software package for the analysis of genes and proteines",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "software package for the analysis of genes and pro",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q61939823",
+    "entity": "XNGR XML Browser",
+    "category": "开发库与SDK",
+    "description": "XNGR XML Browser是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1760545",
+      "instance_label": "XML editor",
+      "raw_description": "XML Editor",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "XML Editor",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q62860941",
+    "entity": "procps",
+    "category": "开发库与SDK",
+    "description": "procps是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "package of utilities including ps, vmstat, top, and w",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "package of utilities including ps",
+      "summary_reasons": [
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q67038869",
+    "entity": "OsmoHLR",
+    "category": "数据库",
+    "description": "OsmoHLR是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "cellular network subscriber database and authentication key store",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "cellular network subscriber database and authentic",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q67039792",
+    "entity": "OsmoBSC",
+    "category": "开发库与SDK",
+    "description": "OsmoBSC是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "free implementation of a GSM base station controller",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "free implementation of a GSM base station controll",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q72272096",
+    "entity": "GNU Gratuitous ARP Daemon",
+    "category": "开发库与SDK",
+    "description": "GNU Gratuitous ARP Daemon是开发库与",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "daemon that listens for and reports gratuitous ARP messages for IPMI and more",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "daemon that listens for and reports gratuitous ARP",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q96470799",
+    "entity": "PyBEL",
+    "category": "编程语言",
+    "description": "PyBEL是编程语言相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "Python library for Biological Expression Language",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Python library for Biological Expression Language",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q96631404",
+    "entity": "PyKEEN",
+    "category": "开发库与SDK",
+    "description": "PyKEEN是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "Python software for knowledge graph embeddings",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Python software for knowledge graph embeddings",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q98479470",
+    "entity": "docbook",
+    "category": "开发库与SDK",
+    "description": "docbook是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "SGML definitions and XML stylesheets (XSL) for the docbook file format",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "SGML definitions and XML stylesheets (XSL) for the",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q104778386",
+    "entity": "uboot4extlinux-am335x_bone",
+    "category": "开发库与SDK",
+    "description": "uboot4extlinux-am335x_bone是开发库",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "Parabola package for u-boot for several Single Board computers",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Parabola package for u-boot for several Single Boa",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q105646358",
+    "entity": "Mailman Core",
+    "category": "开发库与SDK",
+    "description": "Mailman Core是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "module responsible for sending and receiving emails",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "module responsible for sending and receiving email",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q105650484",
+    "entity": "Q105650484",
+    "category": "开发库与SDK",
+    "description": "属于开发库与SDK类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "web user interface to access GNU Mailman3 archives",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "web user interface to access GNU Mailman3 archives",
+      "summary_reasons": [
+        "qid_label",
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q107497068",
+    "entity": "Integrated Network and Dynamical Reasoning Assembler",
+    "category": "开发库与SDK",
+    "description": "Integrated Network and Dynamic",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "Text mining and systems biology modeling software",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Text mining and systems biology modeling software",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q110528426",
+    "entity": "AstroImageJ",
+    "category": "开发库与SDK",
+    "description": "AstroImageJ是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "software package for astronomical image analysis, based on ImageJ",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "software package for astronomical image analysis",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q112568453",
+    "entity": "MARK16",
+    "category": "开发库与SDK",
+    "description": "MARK16是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1674651",
+      "instance_label": "virtual research environment",
+      "raw_description": "Virtual Research Environment supported by the SNSF",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Virtual Research Environment supported by the SNSF",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q113131012",
+    "entity": "Flashcard (Emacs package)",
+    "category": "开发库与SDK",
+    "description": "Flashcard (Emacs package)是开发库与",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "former software package maintained by Damien Elmes",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "former software package maintained by Damien Elmes",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q8029",
+    "entity": "BibTeX",
+    "category": "开发库与SDK",
+    "description": "BibTeX是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "reference management software for formatting lists of references",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "reference management software for formatting lists",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q40984",
+    "entity": "Q40984",
+    "category": "开发库与SDK",
+    "description": "属于开发库与SDK类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "former telecommunications software service",
+      "batch_targets": [
+        "general_software",
+        "mobile_app"
+      ],
+      "description_before_summary": "former telecommunications software service",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q49665",
+    "entity": "EarthStation 5",
+    "category": "开发库与SDK",
+    "description": "EarthStation 5是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "peer-to-peer network active between 2003 and 2005",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "peer-to-peer network active between 2003 and 2005",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q55530",
+    "entity": "SeeU",
+    "category": "开发库与SDK",
+    "description": "SeeU是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "Korean vocaloid developed by SBS Artech with the voice of the singer of the K-pop band",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Korean vocaloid developed by SBS Artech with the v",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q58069",
+    "entity": "Digsby",
+    "category": "社交通信",
+    "description": "Digsby是社交通信相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "IM, social network and e-Mail client",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "IM",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q79608",
+    "entity": "Google Toolbar",
+    "category": "开发库与SDK",
+    "description": "Google Toolbar是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "web browser toolbar for Internet Explorer by Google",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "web browser toolbar for Internet Explorer by Googl",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q116328",
+    "entity": "DialogOS",
+    "category": "开发库与SDK",
+    "description": "DialogOS是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "graphical programming environment for dialog design",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "graphical programming environment for dialog desig",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q122381",
+    "entity": "BlackBerry World",
+    "category": "开发库与SDK",
+    "description": "BlackBerry World是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "application distribution service and application by BlackBerry Ltd",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "application distribution service and application b",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q129070",
+    "entity": "Giveaway of the Day",
+    "category": "开发库与SDK",
+    "description": "Giveaway of the Day是开发库与SDK相关软",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "website",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "website",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q136469",
+    "entity": "Q136469",
+    "category": "开发库与SDK",
+    "description": "属于开发库与SDK类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "e-book reading device",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "e-book reading device",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q163751",
+    "entity": "Magic Lantern",
+    "category": "开发库与SDK",
+    "description": "Magic Lantern是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "keystroke logging software developed by the United States' Federal Bureau of Investigation",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "keystroke logging software developed by the United",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q164265",
+    "entity": "Jeskola Buzz",
+    "category": "开发库与SDK",
+    "description": "Jeskola Buzz是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "freeware modular software music studio environment",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "freeware modular software music studio environment",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q166751",
+    "entity": "InterBase",
+    "category": "数据库",
+    "description": "InterBase是一款数据库相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "relational database management system",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "relational database management system",
+      "summary_reasons": [
+        "generic_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q173979",
+    "entity": "Merlin",
+    "category": "开发库与SDK",
+    "description": "Merlin是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "project management software application by ProjectWizards",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "project management software application by Project",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q177314",
+    "entity": "Active Desktop",
+    "category": "开发库与SDK",
+    "description": "Active Desktop是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "feature of Microsoft Internet Explorer 4.0's optional Windows Desktop Update",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "feature of Microsoft Internet Explorer 4",
+      "summary_reasons": [
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q202044",
+    "entity": "Tor",
+    "category": "开发库与SDK",
+    "description": "Tor是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "daemon and utilities for an anonymizing network",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "daemon and utilities for an anonymizing network",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q202861",
+    "entity": "System Center Operations Manager",
+    "category": "开发库与SDK",
+    "description": "System Center Operations Manag",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "Data center monitoring system for operating systems",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Data center monitoring system for operating system",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q213602",
+    "entity": "Google Street View",
+    "category": "开发库与SDK",
+    "description": "Google Street View是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "technology featured in Google Maps and Google Earth that provides panoramic views from positions along many streets in the world",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "technology featured in Google Maps and Google Eart",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q115987453",
+    "entity": "gspca",
+    "category": "开发库与SDK",
+    "description": "gspca是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1739331",
+      "instance_label": "loadable kernel module",
+      "raw_description": "Linux kernel driver module for pre-UVC webcams",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Linux kernel driver module for pre-UVC webcams",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q130273344",
+    "entity": "macFUSE",
+    "category": "开发库与SDK",
+    "description": "macFUSE是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1739331",
+      "instance_label": "loadable kernel module",
+      "raw_description": "software extending macOS's native file handling capabilities",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "software extending macOS's native file handling ca",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q130717637",
+    "entity": "IDOVIR",
+    "category": "开发库与SDK",
+    "description": "IDOVIR是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1674651",
+      "instance_label": "virtual research environment",
+      "raw_description": "Digital tool for the scientific documentation of virtual reconstructions in art history, architectural history and archaeology",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Digital tool for the scientific documentation of v",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q137490891",
+    "entity": "CPC 464 Computing",
+    "category": "开发库与SDK",
+    "description": "CPC 464 Computing是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q416",
+      "instance_label": "disk magazine",
+      "raw_description": "disk magazine published by Argus Press Software Group",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "disk magazine published by Argus Press Software Gr",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q137760132",
+    "entity": "Scratchpads",
+    "category": "开发库与SDK",
+    "description": "Scratchpads是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1674651",
+      "instance_label": "virtual research environment",
+      "raw_description": "discontinued software framework for biodiversity websites",
+      "batch_targets": [
+        "general_software",
+        "software_framework"
+      ],
+      "description_before_summary": "discontinued software framework for biodiversity w",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q196305",
+    "entity": "File Explorer",
+    "category": "操作系统",
+    "description": "File Explorer是一款操作系统",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "file manager application that is included with releases of the Microsoft Windows operating system",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "file manager application that is included with rel",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q444542",
+    "entity": "XMLSpy",
+    "category": "开发库与SDK",
+    "description": "XMLSpy是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1760545",
+      "instance_label": "XML editor",
+      "raw_description": "XML editing integrated development environment",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "XML editing integrated development environment",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1047199",
+    "entity": "Q1047199",
+    "category": "开发库与SDK",
+    "description": "属于开发库与SDK类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "free and open-source software",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "free and open-source software",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1050995",
+    "entity": "util-linux",
+    "category": "开发库与SDK",
+    "description": "util-linux是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "standard package of utility programs for Linux",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "standard package of utility programs for Linux",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1126948",
+    "entity": "Q1126948",
+    "category": "开发库与SDK",
+    "description": "属于开发库与SDK类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "Bluetooth protocol stack for Linux",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Bluetooth protocol stack for Linux",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1135839",
+    "entity": "Q1135839",
+    "category": "编程语言",
+    "description": "属于编程语言类别的软件实体",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "interpreter for the PostScript language",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "interpreter for the PostScript language",
+      "summary_reasons": [
+        "qid_label",
+        "english_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q226264",
+    "entity": "BIOS",
+    "category": "开发库与SDK",
+    "description": "BIOS是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "common firmware system used to initialize hardware when a computer boots",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "common firmware system used to initialize hardware",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q228331",
+    "entity": "access software",
+    "category": "开发库与SDK",
+    "description": "access software是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q7397",
+      "instance_label": "software",
+      "raw_description": "Computer programs that are provided by providers to enable their customers to have convenient access to their dial-up points",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "Computer programs that are provided by providers t",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q1457466",
+    "entity": "OsmocomBB",
+    "category": "开发库与SDK",
+    "description": "OsmocomBB是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "free client-side GSM implementation and firmware",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "free client-side GSM implementation and firmware",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2025366",
+    "entity": "OpenBSC",
+    "category": "开发库与SDK",
+    "description": "OpenBSC是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "a project for the development of an free software GSM implementation",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "a project for the development of an free software ",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q2561066",
+    "entity": "Bluetooth stack",
+    "category": "开发库与SDK",
+    "description": "Bluetooth stack是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1757693",
+      "instance_label": "protocol stack",
+      "raw_description": "software that refers to an implementation of the Bluetooth protocol stack",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "software that refers to an implementation of the B",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q4905148",
+    "entity": "Big Blue Disk",
+    "category": "开发库与SDK",
+    "description": "Big Blue Disk是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q416",
+      "instance_label": "disk magazine",
+      "raw_description": "US magazine",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "US magazine",
+      "summary_reasons": [
+        "english_description",
+        "short_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  },
+  {
+    "id": "Q6055966",
+    "entity": "Internet in a Box",
+    "category": "开发库与SDK",
+    "description": "Internet in a Box是开发库与SDK相关软件",
+    "source": [
+      "Wikidata"
+    ],
+    "level": "3",
+    "extra": {
+      "instance_id": "Q1995545",
+      "instance_label": "software package",
+      "raw_description": "one of the first available Internet connection software packages",
+      "batch_targets": [
+        "general_software"
+      ],
+      "description_before_summary": "one of the first available Internet connection sof",
+      "summary_reasons": [
+        "english_description",
+        "long_description"
+      ],
+      "summary_method": "offline_heuristic_llm_style",
+      "summary_prompt": "请根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+    }
+  }
+]

@@ -167,3 +167,29 @@ python3 scripts/merge_sources.py
 - `outputs/figures/alignment_stats.json`
 
 其中 `alignment_stats.json` 会记录去重数量、多源融合实体数和典型中英对齐案例。
+
+## LLM 摘要与去噪
+
+```bash
+python3 scripts/llm_summarize_descriptions.py --limit 100
+```
+
+该流程当前默认使用离线规则模拟 LLM 摘要工作流，但保留了后续接入真实 API 的接口形态。
+
+输出：
+
+- `data/interim/llm_summarized_entities_sample.json`
+- `outputs/figures/llm_qc_stats.json`
+
+会记录：
+
+- 候选条目数量
+- 进入摘要处理的原因分布
+- 摘要前后描述
+- 固定的摘要提示词
+
+建议在报告中明确说明：
+
+- LLM 仅用于摘要压缩与格式统一
+- 实体名、类别与核心事实来自原始数据源
+- 当前离线规则版用于演示批处理流程，真实 API 可在同一流程上替换
