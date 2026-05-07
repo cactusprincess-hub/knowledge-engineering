@@ -21,7 +21,7 @@ if str(SRC) not in sys.path:
 
 try:
     import requests
-except ImportError:  # pragma: no cover - standard-library fallback for minimal environments
+except ImportError:
     requests = None
 
 from software_ai_kg.io_utils import save_json
