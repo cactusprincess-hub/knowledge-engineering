@@ -1,0 +1,264 @@
+{
+  "input_records": 5325,
+  "candidate_records": 1742,
+  "processed_records": 100,
+  "max_summary_chars": 30,
+  "reason_breakdown": {
+    "english_description": 1611,
+    "generic_description": 33,
+    "long_description": 1248,
+    "qid_label": 222,
+    "short_description": 390,
+    "truncated_description": 1
+  },
+  "sample_outputs": [
+    {
+      "id": "Q80689",
+      "entity": "Q80689",
+      "category": "数据库",
+      "description": "属于数据库类别的软件实体",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "database manager part of the Microsoft 365 package",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "database manager part of the Microsoft 365 package",
+        "summary_reasons": [
+          "qid_label",
+          "english_description",
+          "long_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q192490",
+      "entity": "PostgreSQL",
+      "category": "数据库",
+      "description": "PostgreSQL是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "free and open-source relational database management system",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "free and open-source relational database managemen",
+        "summary_reasons": [
+          "english_description",
+          "long_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q850",
+      "entity": "Q850",
+      "category": "数据库",
+      "description": "属于数据库类别的软件实体",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "SQL database engine software",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "SQL database engine software",
+        "summary_reasons": [
+          "qid_label",
+          "english_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q60463",
+      "entity": "Ingres",
+      "category": "数据库",
+      "description": "Ingres是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "database software",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "database software",
+        "summary_reasons": [
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q261744",
+      "entity": "Firebird",
+      "category": "数据库",
+      "description": "Firebird是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "relational database management system",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "relational database management system",
+        "summary_reasons": [
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q319417",
+      "entity": "Q319417",
+      "category": "数据库",
+      "description": "属于数据库类别的软件实体",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q35687379",
+        "instance_label": "serverless relational database management system",
+        "raw_description": "serverless relational database management system (RDBMS)",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "serverless relational database management system (",
+        "summary_reasons": [
+          "qid_label",
+          "english_description",
+          "long_description",
+          "truncated_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q787177",
+      "entity": "MariaDB",
+      "category": "数据库",
+      "description": "MariaDB是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "database management system, relational, open source, community developed fork of MySQL",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "database management system",
+        "summary_reasons": [
+          "long_description",
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q951374",
+      "entity": "SAP HANA",
+      "category": "数据库",
+      "description": "SAP HANA是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "relational database management system",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "relational database management system",
+        "summary_reasons": [
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q1012765",
+      "entity": "SQL Server Express",
+      "category": "数据库",
+      "description": "SQL Server Express是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "relational database management system",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "relational database management system",
+        "summary_reasons": [
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    },
+    {
+      "id": "Q1050734",
+      "entity": "IBM Informix",
+      "category": "数据库",
+      "description": "IBM Informix是一款数据库相关软件",
+      "source": [
+        "Wikidata"
+      ],
+      "level": "3",
+      "extra": {
+        "instance_id": "Q3932296",
+        "instance_label": "relational database management system",
+        "raw_description": "relational database management system",
+        "batch_targets": [
+          "database_management_system"
+        ],
+        "description_before_summary": "relational database management system",
+        "summary_reasons": [
+          "generic_description"
+        ],
+        "summary_method": "rule_based_description_qc",
+        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      }
+    }
+  ]
+}

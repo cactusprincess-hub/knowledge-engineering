@@ -1,37 +1,58 @@
-# 软件与 AI 生态知识图谱课程项目
+# 软件与 AI 生态知识图谱
 
-这个项目是为“知识工程/知识图谱”课程作业准备的最小可执行骨架，围绕 4 个老师容易认可的贡献点展开：
+本项目面向知识工程课程作业，围绕“软件与 AI 生态”构建一个具有分层结构、可复现处理流程和质量控制证据的知识图谱。项目重点不是简单堆积词条，而是对多源实体进行规范化、去重、层级治理和简介质量控制。
 
-1. 拓扑结构治理：`subclass of` 去环、单父节点约束、层级规范化。
-2. 知识消歧与融合：Wikidata、中文来源、前沿 AI 增量数据的对齐与去重。
-3. 非结构化增量：从新闻、论文、GitHub Trending 标题中抽取新实体。
-4. 噪声过滤：简介清洗、长度控制、类别校验、自动化 QC。
+## 项目目标
+
+项目将实体组织为三级结构：
+
+1. 一级类别：软件与 AI 生态。
+2. 二级类别：系统软件、应用软件、人工智能模型与应用、开发工具与框架等。
+3. 三级实体：具体软件、模型、工具或框架，例如 Windows 11、WeChat、PyTorch、DeepSeek-V3。
+
+主要工程目标包括：
+
+- 从 Wikidata 批量获取软件相关实体，形成 5000 条以上的基础实体库。
+- 清理 `subclass of` 层级中的循环依赖、多父节点和冗余路径，形成稳定的分类树。
+- 引入中文来源补充国产软件，并完成中英文别名对齐和实体融合。
+- 对过短、过长、英文描述和泛化描述进行自动质量检查，生成统一格式的一句话简介。
+
+## 当前结果
+
+截至当前版本，项目已经形成一套完整的可复现实验流程：
+
+- Wikidata 原始抓取记录：6069 条。
+- 规范化后可用实体：5325 条。
+- 全局 QID 去重删除重复记录：248 条。
+- 检测到跨类别重叠实体：19 条。
+- 本体治理处理中删除循环边：3 条。
+- 本体治理处理中裁剪多父节点边：5 条。
+- 中文来源种子实体：20 条。
+- 多源融合后实体：27 条。
+- 简介质量控制候选条目：1742 条。
+
+详细处理过程见 [reports/processing_report.md](reports/processing_report.md)。
 
 ## 目录结构
 
 ```text
 software_ai_kg/
-├── configs/
+├── configs/                  # 分类映射、批量抓取目标、别名配置
 ├── data/
-│   ├── raw/
-│   │   ├── baidubaike/
-│   │   ├── frontier_ai/
-│   │   └── wikidata/
-│   ├── interim/
-│   └── final/
+│   ├── raw/                  # 原始样本与本地抓取缓存
+│   ├── interim/              # 中间处理结果
+│   └── final/                # 最终实体输出
 ├── outputs/
-│   └── figures/
-├── reports/
-├── scripts/
-├── src/
-│   └── software_ai_kg/
-└── tests/
+│   └── figures/              # 统计结果、治理报告、文本树结构
+├── reports/                  # 实验报告与处理说明
+├── scripts/                  # 可执行数据处理脚本
+├── src/software_ai_kg/       # 核心处理模块
+└── tests/                    # 单元测试
 ```
 
-## 快速开始
+## 运行方式
 
 ```bash
-cd 项目根目录
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -39,131 +60,54 @@ python3 scripts/run_pipeline.py
 python3 tests/test_taxonomy.py
 ```
 
-运行后会生成：
+## 核心流程
 
-- `data/interim/frontier_ai_entities.json`
-- `data/interim/taxonomy_tree.json`
-- `data/interim/merged_entities.json`
-- `data/final/entities.json`
-- `outputs/figures/project_summary.json`
-
-## 当前骨架已经包含
-
-- 一个可复现的示例数据流
-- `Wikidata` 子类边去环与单父节点选择
-- 多源实体清洗、对齐、融合
-- 简介压缩到 50 字以内
-- 基础质量控制与过滤
-- 报告提纲与“邀功”表述草稿
-
-## 后续扩展顺序
-
-1. 把 `data/raw/wikidata/` 换成真实 SPARQL 拉取结果。
-2. 把 `data/raw/baidubaike/` 换成你实际补充的国产软件数据。
-3. 把 `data/raw/frontier_ai/demo_titles.json` 换成机器之心、arXiv、GitHub Trending 标题。
-4. 如果你要接入 LLM，把摘要与校验逻辑补到 `scripts/extract_frontier_ai.py` 或单独的 `llm_enrich.py`。
-
-## 开发工作流
-
-- `main`：保持可运行、可提交的稳定版本。
-- `codex/*`：每一轮任务先从 `main` 拉新分支开发。
-- 完成开发后先本地运行脚本与测试，再推送分支。
-- 验证无误后再发起 PR 合并回 `main`。
-- 提交信息尽量使用 `类型: 描述`，例如 `feat: 增加 Wikidata 实体规范化脚本`。
-- 大于 `50MB` 的原始数据不要直接提交到 Git，仓库里只保留样本与统计结果。
-
-建议分支命名：
-
-- `codex/wikidata-ingest`
-- `codex/baike-alignment`
-- `codex/frontier-ai-enrichment`
-- `codex/report-polish`
-
-## Wikidata 接入流程
-
-```bash
-python3 scripts/fetch_wikidata.py --limit 100
-python3 scripts/fetch_wikidata.py --limit 100 --offset 100
-python3 scripts/normalize_wikidata.py
-```
-
-完成后会新增：
-
-- `outputs/figures/wikidata_normalization_stats.json`
-- 可选的本地大文件 `data/raw/wikidata/wikidata_entities_raw.json`
-- 可选的本地中间文件 `data/interim/wikidata_entities_normalized.json`
-
-如果本机代理会拦截 HTTPS 证书，可以在抓取时加：
-
-```bash
-python3 scripts/fetch_wikidata.py --limit 100 --insecure
-```
-
-这个选项只建议在本地代理环境下使用。
-
-## Wikidata 扩量流程
-
-```bash
-python3 scripts/fetch_wikidata_batches.py --insecure
-python3 scripts/normalize_wikidata_batches.py
-```
-
-这个脚本会：
-
-- 按多个软件子类分批抓取
-- 将每个批次持久化到 `data/raw/wikidata/batches/`
-- 生成批次清单 `outputs/figures/wikidata_batch_manifest.json`
-- 生成规模统计 `outputs/figures/wikidata_scale_stats.json`
-
-推荐先做中等规模验证：
+### 1. Wikidata 批量抓取
 
 ```bash
 python3 scripts/fetch_wikidata_batches.py --batch-size 200 --max-batches 1 --insecure --log-file outputs/logs/wikidata_scale.log
 python3 scripts/normalize_wikidata_batches.py
 ```
 
-批量规范化统计会额外告诉你：
+该流程会按软件子类分批抓取实体，并基于 QID 进行全局去重。原始批次数据保存在 `data/raw/wikidata/batches/`，统计结果保存在 `outputs/figures/`。
 
-- 全局 `QID` 去重后还剩多少实体
-- 有多少实体跨多个抓取目标重复出现
-- 丢弃率 `drop_ratio`
-- 过短简介占比 `short_description_ratio`
-
-## 本体治理报告
+### 2. 本体治理
 
 ```bash
 python3 scripts/generate_taxonomy_report.py
 ```
 
-会生成两类适合写报告的产物：
+该流程会对分类边进行去环、单父节点选择和人工规则校正，输出：
 
 - `outputs/figures/taxonomy_governance_report.json`
 - `outputs/figures/taxonomy_tree.txt`
 
-其中会记录：
-
-- 检测到的循环边数量
-- 裁剪的多父节点边数量
-- 典型环路案例
-- 单父节点归并案例
-- 一棵清晰的树状层级结构
-
-## 中文增强与多源融合
+### 3. 中文增强与多源融合
 
 ```bash
 python3 scripts/merge_sources.py
 ```
 
-融合流程会读取：
+该流程读取 Wikidata 样本、中文软件种子数据和中英文别名表，完成实体对齐、去重和来源合并。典型融合样例包括 WeChat/微信、WPS Office/WPS、Windows 11。
 
-- `data/raw/wikidata/demo_entities.json`
-- `data/raw/baidubaike/demo_entities.json`
-- `data/raw/baidubaike/seed_cn_software.json`
-- `configs/entity_aliases_zh_en.json`
+### 4. 简介质量控制
 
-输出：
+```bash
+python3 scripts/summarize_descriptions.py --limit 100
+```
 
+该流程用于识别描述过短、过长、语言不统一或内容过于泛化的条目，并生成规范化的一句话简介。当前版本默认采用离线规则实现，保证不新增原始来源之外的事实；后续也可以在同一接口下替换为人工审核或模型辅助摘要。
+
+## 可复现产物
+
+- `data/interim/wikidata_entities_normalized_from_batches.json`
 - `data/interim/merged_entities.json`
+- `data/interim/description_qc_sample.json`
+- `outputs/figures/wikidata_scale_normalization_stats.json`
+- `outputs/figures/taxonomy_governance_report.json`
 - `outputs/figures/alignment_stats.json`
+- `outputs/figures/description_qc_stats.json`
 
-其中 `alignment_stats.json` 会记录去重数量、多源融合实体数和典型中英对齐案例。
+## 说明
+
+仓库中保留脚本、样本数据和统计结果。大规模原始抓取数据默认通过 `.gitignore` 排除，避免仓库体积过大；需要复现实验时可重新运行抓取脚本生成本地缓存。
