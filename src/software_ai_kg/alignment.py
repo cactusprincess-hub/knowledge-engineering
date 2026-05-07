@@ -6,7 +6,7 @@ from difflib import SequenceMatcher
 
 try:
     from rapidfuzz import fuzz
-except ImportError:  # pragma: no cover - fallback for minimal local environments
+except ImportError:
     fuzz = None
 
 from software_ai_kg.models import EntityRecord

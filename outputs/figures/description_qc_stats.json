@@ -28,14 +28,13 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "database manager part of the Microsoft 365 package",
-        "summary_reasons": [
+        "original_description": "database manager part of the Microsoft 365 package",
+        "description_issues": [
           "qid_label",
           "english_description",
           "long_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -54,13 +53,12 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "free and open-source relational database managemen",
-        "summary_reasons": [
+        "original_description": "free and open-source relational database managemen",
+        "description_issues": [
           "english_description",
           "long_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -79,13 +77,12 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "SQL database engine software",
-        "summary_reasons": [
+        "original_description": "SQL database engine software",
+        "description_issues": [
           "qid_label",
           "english_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -104,12 +101,11 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "database software",
-        "summary_reasons": [
+        "original_description": "database software",
+        "description_issues": [
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -128,12 +124,11 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "relational database management system",
-        "summary_reasons": [
+        "original_description": "relational database management system",
+        "description_issues": [
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -152,15 +147,14 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "serverless relational database management system (",
-        "summary_reasons": [
+        "original_description": "serverless relational database management system (",
+        "description_issues": [
           "qid_label",
           "english_description",
           "long_description",
           "truncated_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -179,13 +173,12 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "database management system",
-        "summary_reasons": [
+        "original_description": "database management system",
+        "description_issues": [
           "long_description",
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -204,12 +197,11 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "relational database management system",
-        "summary_reasons": [
+        "original_description": "relational database management system",
+        "description_issues": [
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -228,12 +220,11 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "relational database management system",
-        "summary_reasons": [
+        "original_description": "relational database management system",
+        "description_issues": [
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     },
     {
@@ -252,12 +243,11 @@
         "batch_targets": [
           "database_management_system"
         ],
-        "description_before_summary": "relational database management system",
-        "summary_reasons": [
+        "original_description": "relational database management system",
+        "description_issues": [
           "generic_description"
         ],
-        "summary_method": "rule_based_description_qc",
-        "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+        "normalization_method": "rule_based_description_normalization"
       }
     }
   ]

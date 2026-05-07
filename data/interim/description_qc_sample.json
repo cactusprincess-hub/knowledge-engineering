@@ -15,14 +15,13 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "database manager part of the Microsoft 365 package",
-      "summary_reasons": [
+      "original_description": "database manager part of the Microsoft 365 package",
+      "description_issues": [
         "qid_label",
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -41,13 +40,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "free and open-source relational database managemen",
-      "summary_reasons": [
+      "original_description": "free and open-source relational database managemen",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -66,13 +64,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "SQL database engine software",
-      "summary_reasons": [
+      "original_description": "SQL database engine software",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -91,12 +88,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "database software",
-      "summary_reasons": [
+      "original_description": "database software",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -115,12 +111,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -139,15 +134,14 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "serverless relational database management system (",
-      "summary_reasons": [
+      "original_description": "serverless relational database management system (",
+      "description_issues": [
         "qid_label",
         "english_description",
         "long_description",
         "truncated_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -166,13 +160,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "database management system",
-      "summary_reasons": [
+      "original_description": "database management system",
+      "description_issues": [
         "long_description",
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -191,12 +184,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -215,12 +207,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -239,12 +230,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -268,13 +258,12 @@
         "数据库",
         "编程语言"
       ],
-      "description_before_summary": "commercial operational database management system ",
-      "summary_reasons": [
+      "original_description": "commercial operational database management system ",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -293,13 +282,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database developed by Fujitsu Siemens",
-      "summary_reasons": [
+      "original_description": "relational database developed by Fujitsu Siemens",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -323,12 +311,11 @@
         "数据库",
         "编程语言"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -347,12 +334,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -371,13 +357,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "proprietary relational database management system",
-      "summary_reasons": [
+      "original_description": "proprietary relational database management system",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -396,13 +381,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "a shell-based relational database management syste",
-      "summary_reasons": [
+      "original_description": "a shell-based relational database management syste",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -421,12 +405,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -445,12 +428,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Relational database management system",
-      "summary_reasons": [
+      "original_description": "Relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -469,12 +451,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -493,12 +474,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "database Management System",
-      "summary_reasons": [
+      "original_description": "database Management System",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -517,12 +497,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "database management system",
-      "summary_reasons": [
+      "original_description": "database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -541,13 +520,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "a relational database management system designed f",
-      "summary_reasons": [
+      "original_description": "a relational database management system designed f",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -566,12 +544,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -590,12 +567,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -614,12 +590,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Database management system",
-      "summary_reasons": [
+      "original_description": "Database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -638,13 +613,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Virtuoso is a high-performance and scalable Multi-",
-      "summary_reasons": [
+      "original_description": "Virtuoso is a high-performance and scalable Multi-",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -663,12 +637,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Relational Database Management System",
-      "summary_reasons": [
+      "original_description": "Relational Database Management System",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -687,13 +660,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "distributed",
-      "summary_reasons": [
+      "original_description": "distributed",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -712,12 +684,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -736,12 +707,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -760,12 +730,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "discontinued database software",
-      "summary_reasons": [
+      "original_description": "discontinued database software",
+      "description_issues": [
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -784,13 +753,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Russian high-performance multi-model database syst",
-      "summary_reasons": [
+      "original_description": "Russian high-performance multi-model database syst",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -809,13 +777,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "Open source relational database management system ",
-      "summary_reasons": [
+      "original_description": "Open source relational database management system ",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -834,13 +801,12 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "multi-model database system optimized for heteroge",
-      "summary_reasons": [
+      "original_description": "multi-model database system optimized for heteroge",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -859,14 +825,13 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "serverless relational database management system",
-      "summary_reasons": [
+      "original_description": "serverless relational database management system",
+      "description_issues": [
         "qid_label",
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -885,12 +850,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -909,12 +873,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -933,12 +896,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -957,12 +919,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -981,12 +942,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1005,12 +965,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1029,12 +988,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1053,14 +1011,13 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "qid_label",
         "english_description",
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1079,12 +1036,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1103,12 +1059,11 @@
       "batch_targets": [
         "database_management_system"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1127,13 +1082,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "file format",
-      "summary_reasons": [
+      "original_description": "file format",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1152,13 +1106,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Octave package that provides functions for process",
-      "summary_reasons": [
+      "original_description": "Octave package that provides functions for process",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1177,13 +1130,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "standard Unix documentation system accessed using ",
-      "summary_reasons": [
+      "original_description": "standard Unix documentation system accessed using ",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1202,13 +1154,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "software package for the analysis of genes and pro",
-      "summary_reasons": [
+      "original_description": "software package for the analysis of genes and pro",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1227,13 +1178,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "XML Editor",
-      "summary_reasons": [
+      "original_description": "XML Editor",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1252,12 +1202,11 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "package of utilities including ps",
-      "summary_reasons": [
+      "original_description": "package of utilities including ps",
+      "description_issues": [
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1276,13 +1225,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "cellular network subscriber database and authentic",
-      "summary_reasons": [
+      "original_description": "cellular network subscriber database and authentic",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1301,13 +1249,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "free implementation of a GSM base station controll",
-      "summary_reasons": [
+      "original_description": "free implementation of a GSM base station controll",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1326,13 +1273,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "daemon that listens for and reports gratuitous ARP",
-      "summary_reasons": [
+      "original_description": "daemon that listens for and reports gratuitous ARP",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1351,13 +1297,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Python library for Biological Expression Language",
-      "summary_reasons": [
+      "original_description": "Python library for Biological Expression Language",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1376,13 +1321,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Python software for knowledge graph embeddings",
-      "summary_reasons": [
+      "original_description": "Python software for knowledge graph embeddings",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1401,13 +1345,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "SGML definitions and XML stylesheets (XSL) for the",
-      "summary_reasons": [
+      "original_description": "SGML definitions and XML stylesheets (XSL) for the",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1426,13 +1369,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Parabola package for u-boot for several Single Boa",
-      "summary_reasons": [
+      "original_description": "Parabola package for u-boot for several Single Boa",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1451,13 +1393,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "module responsible for sending and receiving email",
-      "summary_reasons": [
+      "original_description": "module responsible for sending and receiving email",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1476,14 +1417,13 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "web user interface to access GNU Mailman3 archives",
-      "summary_reasons": [
+      "original_description": "web user interface to access GNU Mailman3 archives",
+      "description_issues": [
         "qid_label",
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1502,13 +1442,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Text mining and systems biology modeling software",
-      "summary_reasons": [
+      "original_description": "Text mining and systems biology modeling software",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1527,13 +1466,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "software package for astronomical image analysis",
-      "summary_reasons": [
+      "original_description": "software package for astronomical image analysis",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1552,13 +1490,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Virtual Research Environment supported by the SNSF",
-      "summary_reasons": [
+      "original_description": "Virtual Research Environment supported by the SNSF",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1577,13 +1514,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "former software package maintained by Damien Elmes",
-      "summary_reasons": [
+      "original_description": "former software package maintained by Damien Elmes",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1602,13 +1538,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "reference management software for formatting lists",
-      "summary_reasons": [
+      "original_description": "reference management software for formatting lists",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1628,13 +1563,12 @@
         "general_software",
         "mobile_app"
       ],
-      "description_before_summary": "former telecommunications software service",
-      "summary_reasons": [
+      "original_description": "former telecommunications software service",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1653,13 +1587,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "peer-to-peer network active between 2003 and 2005",
-      "summary_reasons": [
+      "original_description": "peer-to-peer network active between 2003 and 2005",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1678,13 +1611,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Korean vocaloid developed by SBS Artech with the v",
-      "summary_reasons": [
+      "original_description": "Korean vocaloid developed by SBS Artech with the v",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1703,13 +1635,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "IM",
-      "summary_reasons": [
+      "original_description": "IM",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1728,13 +1659,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "web browser toolbar for Internet Explorer by Googl",
-      "summary_reasons": [
+      "original_description": "web browser toolbar for Internet Explorer by Googl",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1753,13 +1683,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "graphical programming environment for dialog desig",
-      "summary_reasons": [
+      "original_description": "graphical programming environment for dialog desig",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1778,13 +1707,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "application distribution service and application b",
-      "summary_reasons": [
+      "original_description": "application distribution service and application b",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1803,13 +1731,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "website",
-      "summary_reasons": [
+      "original_description": "website",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1828,13 +1755,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "e-book reading device",
-      "summary_reasons": [
+      "original_description": "e-book reading device",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1853,13 +1779,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "keystroke logging software developed by the United",
-      "summary_reasons": [
+      "original_description": "keystroke logging software developed by the United",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1878,13 +1803,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "freeware modular software music studio environment",
-      "summary_reasons": [
+      "original_description": "freeware modular software music studio environment",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1903,12 +1827,11 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "relational database management system",
-      "summary_reasons": [
+      "original_description": "relational database management system",
+      "description_issues": [
         "generic_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1927,13 +1850,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "project management software application by Project",
-      "summary_reasons": [
+      "original_description": "project management software application by Project",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1952,12 +1874,11 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "feature of Microsoft Internet Explorer 4",
-      "summary_reasons": [
+      "original_description": "feature of Microsoft Internet Explorer 4",
+      "description_issues": [
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -1976,13 +1897,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "daemon and utilities for an anonymizing network",
-      "summary_reasons": [
+      "original_description": "daemon and utilities for an anonymizing network",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2001,13 +1921,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Data center monitoring system for operating system",
-      "summary_reasons": [
+      "original_description": "Data center monitoring system for operating system",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2026,13 +1945,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "technology featured in Google Maps and Google Eart",
-      "summary_reasons": [
+      "original_description": "technology featured in Google Maps and Google Eart",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2051,13 +1969,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Linux kernel driver module for pre-UVC webcams",
-      "summary_reasons": [
+      "original_description": "Linux kernel driver module for pre-UVC webcams",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2076,13 +1993,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "software extending macOS's native file handling ca",
-      "summary_reasons": [
+      "original_description": "software extending macOS's native file handling ca",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2101,13 +2017,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Digital tool for the scientific documentation of v",
-      "summary_reasons": [
+      "original_description": "Digital tool for the scientific documentation of v",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2126,13 +2041,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "disk magazine published by Argus Press Software Gr",
-      "summary_reasons": [
+      "original_description": "disk magazine published by Argus Press Software Gr",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2152,13 +2066,12 @@
         "general_software",
         "software_framework"
       ],
-      "description_before_summary": "discontinued software framework for biodiversity w",
-      "summary_reasons": [
+      "original_description": "discontinued software framework for biodiversity w",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2177,13 +2090,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "file manager application that is included with rel",
-      "summary_reasons": [
+      "original_description": "file manager application that is included with rel",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2202,13 +2114,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "XML editing integrated development environment",
-      "summary_reasons": [
+      "original_description": "XML editing integrated development environment",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2227,13 +2138,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "free and open-source software",
-      "summary_reasons": [
+      "original_description": "free and open-source software",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2252,13 +2162,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "standard package of utility programs for Linux",
-      "summary_reasons": [
+      "original_description": "standard package of utility programs for Linux",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2277,13 +2186,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Bluetooth protocol stack for Linux",
-      "summary_reasons": [
+      "original_description": "Bluetooth protocol stack for Linux",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2302,13 +2210,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "interpreter for the PostScript language",
-      "summary_reasons": [
+      "original_description": "interpreter for the PostScript language",
+      "description_issues": [
         "qid_label",
         "english_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2327,13 +2234,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "common firmware system used to initialize hardware",
-      "summary_reasons": [
+      "original_description": "common firmware system used to initialize hardware",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2352,13 +2258,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "Computer programs that are provided by providers t",
-      "summary_reasons": [
+      "original_description": "Computer programs that are provided by providers t",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2377,13 +2282,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "free client-side GSM implementation and firmware",
-      "summary_reasons": [
+      "original_description": "free client-side GSM implementation and firmware",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2402,13 +2306,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "a project for the development of an free software ",
-      "summary_reasons": [
+      "original_description": "a project for the development of an free software ",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2427,13 +2330,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "software that refers to an implementation of the B",
-      "summary_reasons": [
+      "original_description": "software that refers to an implementation of the B",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2452,13 +2354,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "US magazine",
-      "summary_reasons": [
+      "original_description": "US magazine",
+      "description_issues": [
         "english_description",
         "short_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   },
   {
@@ -2477,13 +2378,12 @@
       "batch_targets": [
         "general_software"
       ],
-      "description_before_summary": "one of the first available Internet connection sof",
-      "summary_reasons": [
+      "original_description": "one of the first available Internet connection sof",
+      "description_issues": [
         "english_description",
         "long_description"
       ],
-      "summary_method": "rule_based_description_qc",
-      "summary_instruction": "根据原始描述输出30字以内百科定义，不添加原文没有的新事实。"
+      "normalization_method": "rule_based_description_normalization"
     }
   }
 ]
