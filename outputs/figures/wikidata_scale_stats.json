@@ -1,0 +1,24 @@
+{
+  "batch_file_count": 31,
+  "raw_record_count": 6069,
+  "skipped_existing_batch_count": 7,
+  "failed_batch_count": 0,
+  "records_by_target": {
+    "database_management_system": 69,
+    "general_software": 1000,
+    "mobile_app": 1000,
+    "operating_system": 1000,
+    "programming_language": 1000,
+    "software_framework": 1000,
+    "video_game": 1000
+  },
+  "batches_by_target": {
+    "database_management_system": 1,
+    "general_software": 5,
+    "mobile_app": 5,
+    "operating_system": 5,
+    "programming_language": 5,
+    "software_framework": 5,
+    "video_game": 5
+  }
+}

@@ -6,8 +6,11 @@ __pycache__/
 .mypy_cache/
 data/raw/**/tmp/
 outputs/tmp/
+outputs/logs/
 data/raw/wikidata/wikidata_entities_raw.json
+data/raw/wikidata/batches/
 data/raw/wikidata/*.json.gz
 data/raw/wikidata/*.jsonl
 data/interim/wikidata_entities_normalized.json
+data/interim/wikidata_entities_normalized_from_batches.json
 *.parquet

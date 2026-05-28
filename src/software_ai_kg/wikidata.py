@@ -74,6 +74,8 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
     bindings = payload.get("results", {}).get("bindings", [])
     entities: list[EntityRecord] = []
     dropped_records = 0
+    dropped_missing_identity = 0
+    dropped_non_software = 0
     missing_description = 0
     dropped_generic_description = 0
     category_counter: Counter[str] = Counter()
@@ -87,9 +89,11 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
 
         if not item_uri or not item_label:
             dropped_records += 1
+            dropped_missing_identity += 1
             continue
         if _looks_like_non_software(instance_label, description):
             dropped_records += 1
+            dropped_non_software += 1
             continue
         if not description:
             missing_description += 1
@@ -121,6 +125,8 @@ def normalize_wikidata_payload(payload: dict, rules_config: dict) -> tuple[list[
         "raw_records": len(bindings),
         "kept_records": len(entities),
         "dropped_records": dropped_records,
+        "dropped_missing_identity": dropped_missing_identity,
+        "dropped_non_software": dropped_non_software,
         "missing_description_fallbacks": missing_description,
         "dropped_generic_description": dropped_generic_description,
         "category_breakdown": dict(sorted(category_counter.items())),

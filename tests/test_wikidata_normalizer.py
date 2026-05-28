@@ -21,6 +21,7 @@ class WikidataNormalizerTests(unittest.TestCase):
         self.assertEqual(stats["raw_records"], 5)
         self.assertEqual(stats["kept_records"], 4)
         self.assertEqual(stats["dropped_records"], 1)
+        self.assertEqual(stats["dropped_non_software"], 1)
         self.assertEqual(entities[0].id, "Q1406")
         self.assertTrue(all(entity.entity != "Google" for entity in entities))
 
