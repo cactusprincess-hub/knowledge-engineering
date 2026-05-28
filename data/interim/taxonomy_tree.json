@@ -8,19 +8,35 @@
     {
       "parent": "浏览器",
       "child": "互联网应用"
+    },
+    {
+      "parent": "即时通讯软件",
+      "child": "通信软件"
     }
   ],
   "dropped_multi_parent_edges": [
     {
-      "parent": "客户端软件",
-      "child": "浏览器"
-    }
-  ],
-  "tree_edges": [
+      "parent": "中间件",
+      "child": "数据库引擎"
+    },
     {
       "parent": "互联网应用",
       "child": "浏览器"
     },
+    {
+      "parent": "创作工具",
+      "child": "视频编辑软件"
+    },
+    {
+      "parent": "开发库与SDK",
+      "child": "智能体框架"
+    },
+    {
+      "parent": "社交平台",
+      "child": "即时通讯软件"
+    }
+  ],
+  "tree_edges": [
     {
       "parent": "人工智能模型与应用",
       "child": "大语言模型"
@@ -34,16 +50,72 @@
       "child": "智能体工作流"
     },
     {
+      "parent": "图像与视频处理",
+      "child": "视频编辑软件"
+    },
+    {
+      "parent": "客户端软件",
+      "child": "浏览器"
+    },
+    {
+      "parent": "应用软件",
+      "child": "互联网应用"
+    },
+    {
+      "parent": "应用软件",
+      "child": "创作工具"
+    },
+    {
       "parent": "应用软件",
       "child": "办公协作"
+    },
+    {
+      "parent": "应用软件",
+      "child": "图像与视频处理"
+    },
+    {
+      "parent": "应用软件",
+      "child": "客户端软件"
+    },
+    {
+      "parent": "应用软件",
+      "child": "社交平台"
     },
     {
       "parent": "应用软件",
       "child": "社交通信"
     },
     {
+      "parent": "应用软件",
+      "child": "通信软件"
+    },
+    {
+      "parent": "应用软件",
+      "child": "金融与商业"
+    },
+    {
+      "parent": "开发工具与框架",
+      "child": "开发库与SDK"
+    },
+    {
       "parent": "开发工具与框架",
       "child": "深度学习框架"
+    },
+    {
+      "parent": "开发工具与框架",
+      "child": "编译器与构建工具"
+    },
+    {
+      "parent": "数据库",
+      "child": "数据库引擎"
+    },
+    {
+      "parent": "智能体工作流",
+      "child": "智能体框架"
+    },
+    {
+      "parent": "系统软件",
+      "child": "中间件"
     },
     {
       "parent": "系统软件",
@@ -72,6 +144,10 @@
     {
       "parent": "软件与AI生态",
       "child": "系统软件"
+    },
+    {
+      "parent": "通信软件",
+      "child": "即时通讯软件"
     }
   ]
 }

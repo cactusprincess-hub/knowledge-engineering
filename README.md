@@ -128,3 +128,22 @@ python3 scripts/normalize_wikidata_batches.py
 - 有多少实体跨多个抓取目标重复出现
 - 丢弃率 `drop_ratio`
 - 过短简介占比 `short_description_ratio`
+
+## 本体治理报告
+
+```bash
+python3 scripts/generate_taxonomy_report.py
+```
+
+会生成两类适合写报告的产物：
+
+- `outputs/figures/taxonomy_governance_report.json`
+- `outputs/figures/taxonomy_tree.txt`
+
+其中会记录：
+
+- 检测到的循环边数量
+- 裁剪的多父节点边数量
+- 典型环路案例
+- 单父节点归并案例
+- 一棵清晰的树状层级结构
