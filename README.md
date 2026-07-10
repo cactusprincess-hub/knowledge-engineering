@@ -108,6 +108,21 @@ python3 scripts/summarize_descriptions.py --limit 100
 - `outputs/figures/alignment_stats.json`
 - `outputs/figures/description_qc_stats.json`
 
+## 作业提交包
+
+运行以下命令可以生成课程平台提交用压缩包：
+
+```bash
+python3 scripts/package_submission.py
+```
+
+输出位置：
+
+- `dist/knowledge_engineering_submission/`
+- `dist/knowledge_engineering_submission.zip`
+
+提交包包含完整实体集、处理报告、统计文件、源码和测试文件，详细说明见 [SUBMISSION.md](SUBMISSION.md)。
+
 ## 说明
 
 仓库中保留脚本、样本数据和统计结果。大规模原始抓取数据默认通过 `.gitignore` 排除，避免仓库体积过大；需要复现实验时可重新运行抓取脚本生成本地缓存。

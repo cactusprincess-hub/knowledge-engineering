@@ -11,6 +11,7 @@ def _build_children(edges: list[dict]) -> dict[str, list[str]]:
 
 
 def _find_path(children: dict[str, list[str]], start: str, target: str) -> list[str] | None:
+    """Return one existing path from start to target in the current taxonomy."""
     queue = deque([start])
     visited = {start}
     parent_map = {start: None}
@@ -45,6 +46,8 @@ def remove_cycle_edges(
     for edge in edges:
         parent = edge["parent"]
         child = edge["child"]
+        # The graph is built incrementally. If child can already reach parent,
+        # adding parent -> child would create a cycle, so the new edge is pruned.
         cycle_path = [parent] if parent == child else _find_path(children, child, parent)
         if cycle_path is not None:
             if include_metadata:
@@ -85,12 +88,16 @@ def assign_single_parent(
         chosen = None
         selection_reason = "preferred_parent_rank"
 
+        # Manual overrides encode the course taxonomy, for example forcing
+        # "浏览器" under "客户端软件" instead of keeping multiple Wikidata parents.
         override = parent_overrides.get(child)
         if override in parents:
             chosen = override
             selection_reason = "canonical_override"
 
         if chosen is None:
+            # When no override exists, choose the highest ranked parent so every
+            # node has exactly one stable parent in the final tree.
             ranked = sorted(
                 parents,
                 key=lambda parent: (parent_rank.get(parent, len(parent_rank) + 1), parent),
@@ -139,6 +146,7 @@ def build_tree_lines(root: str, edges: list[dict]) -> list[str]:
     lines = [root]
 
     def visit(node: str, prefix: str) -> None:
+        """Render a deterministic text tree for reports and manual inspection."""
         node_children = children.get(node, [])
         for index, child in enumerate(node_children):
             is_last = index == len(node_children) - 1
