@@ -22,6 +22,8 @@ def normalize_entity_name(name: str) -> str:
 def build_alias_index(alias_groups: list[dict]) -> dict[str, list[str]]:
     index: dict[str, list[str]] = {}
     for group in alias_groups:
+        # Put all aliases in the same bucket so Chinese and English names can
+        # be matched before the more expensive fuzzy comparison step.
         aliases = sorted(set(group.get("aliases", []) + [group.get("canonical", "")]))
         aliases = [alias for alias in aliases if alias]
         for alias in aliases:
@@ -43,6 +45,7 @@ def apply_alias_groups(records: list[EntityRecord], alias_groups: list[dict]) ->
 
 
 def _description_score(text: str) -> tuple[int, int, int]:
+    """Prefer Chinese descriptions, then richer descriptions, during fusion."""
     cjk_count = len(re.findall(r"[\u4e00-\u9fff]", text))
     return (1 if cjk_count else 0, cjk_count, len(text))
 
@@ -78,6 +81,8 @@ def deduplicate_entities_with_stats(
                 break
 
         if matched_index is None:
+            # Alias lookup catches explicit pairs such as WeChat/微信. Fuzzy
+            # matching is only used as a fallback and is restricted by category.
             for existing_index, existing in enumerate(merged):
                 left = normalize_entity_name(existing.entity)
                 right = normalize_entity_name(record.entity)
@@ -97,6 +102,7 @@ def deduplicate_entities_with_stats(
 
         existing = merged[matched_index]
         previous_sources = set(existing.source)
+        # Keep a single entity node while preserving all sources and aliases.
         existing.description = merge_descriptions(existing.description, record.description)
         existing.source = sorted(set(existing.source + record.source))
         existing.aliases = sorted(set(existing.aliases + record.aliases + [record.entity]))

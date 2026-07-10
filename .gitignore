@@ -7,6 +7,8 @@ __pycache__/
 data/raw/**/tmp/
 outputs/tmp/
 outputs/logs/
+dist/
+submission_build/
 data/raw/wikidata/wikidata_entities_raw.json
 data/raw/wikidata/batches/
 data/raw/wikidata/*.json.gz

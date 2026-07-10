@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 def build_batch_output_path(output_dir: Path, target_name: str, offset: int) -> Path:
+    """Use deterministic filenames so interrupted crawls can resume by batch."""
     filename = f"{target_name}_offset_{offset:05d}.json"
     return output_dir / filename
 
@@ -21,6 +22,7 @@ def build_manifest(
     status: str = "success",
     error_message: str = "",
 ) -> dict:
+    """Record one fetch batch for reproducibility and later scale statistics."""
     return {
         "target_name": target["name"],
         "target_qid": target["qid"],
@@ -38,6 +40,7 @@ def build_manifest(
 
 
 def summarise_manifest(entries: list[dict]) -> dict:
+    """Aggregate batch-level fetch metadata into report-ready counts."""
     raw_record_count = sum(entry["result_count"] for entry in entries)
     target_counter: Counter[str] = Counter()
     batch_counter: Counter[str] = Counter()

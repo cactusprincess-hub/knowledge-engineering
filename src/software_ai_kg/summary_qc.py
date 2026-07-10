@@ -23,6 +23,7 @@ def is_qid_label(label: str) -> bool:
 
 
 def select_description_issues(record: dict, long_threshold: int = 45, short_threshold: int = 12) -> list[str]:
+    """Detect records whose one-sentence description needs normalization."""
     description = record.get("description", "").strip()
     raw_description = record.get("extra", {}).get("raw_description", description).strip()
     issues = []
@@ -45,6 +46,7 @@ def select_description_issues(record: dict, long_threshold: int = 45, short_thre
 
 
 def heuristic_summary(record: dict, max_chars: int = 30) -> str:
+    """Build a short definition from existing fields without adding new facts."""
     entity = record.get("entity", "").strip()
     category = record.get("category", "").strip()
     description = record.get("extra", {}).get("raw_description") or record.get("description", "")
@@ -93,6 +95,7 @@ def summarize_records(records: list[dict], limit: int = 100, max_chars: int = 30
         updated = dict(record)
         updated["description"] = after
         extra = dict(updated.get("extra", {}))
+        # Keep the original text and issue labels so each edit can be audited.
         extra["original_description"] = before
         extra["description_issues"] = issues
         extra["normalization_method"] = "rule_based_description_normalization"
