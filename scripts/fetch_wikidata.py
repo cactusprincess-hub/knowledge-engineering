@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch software-related entities from Wikidata via SPARQL."""
+"""通过 SPARQL 从 Wikidata 获取软件相关实体。"""
 
 from __future__ import annotations
 

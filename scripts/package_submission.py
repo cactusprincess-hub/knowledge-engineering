@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a course-submission folder and zip archive."""
+"""生成课程提交目录和压缩包。"""
 
 from __future__ import annotations
 
@@ -41,7 +41,7 @@ def copy_tree(src: Path, dst: Path) -> None:
 
 
 def copy_project_runtime_data(code_dir: Path) -> None:
-    """Copy the small data files required by scripts in the submitted code."""
+    """复制提交包内脚本运行所需的小型数据文件。"""
     raw_files = [
         ROOT / "data/raw/wikidata/demo_entities.json",
         ROOT / "data/raw/wikidata/demo_subclass_edges.json",

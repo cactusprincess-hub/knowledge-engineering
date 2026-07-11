@@ -11,7 +11,7 @@ def _build_children(edges: list[dict]) -> dict[str, list[str]]:
 
 
 def _find_path(children: dict[str, list[str]], start: str, target: str) -> list[str] | None:
-    """Return one existing path from start to target in the current taxonomy."""
+    """在当前分类图中查找从 start 到 target 的一条路径。"""
     queue = deque([start])
     visited = {start}
     parent_map = {start: None}
@@ -46,8 +46,8 @@ def remove_cycle_edges(
     for edge in edges:
         parent = edge["parent"]
         child = edge["child"]
-        # The graph is built incrementally. If child can already reach parent,
-        # adding parent -> child would create a cycle, so the new edge is pruned.
+        # 分类边按顺序增量加入；若 child 已能到达 parent，
+        # 再加入 parent -> child 会形成环，因此直接裁剪新边。
         cycle_path = [parent] if parent == child else _find_path(children, child, parent)
         if cycle_path is not None:
             if include_metadata:
@@ -88,16 +88,16 @@ def assign_single_parent(
         chosen = None
         selection_reason = "preferred_parent_rank"
 
-        # Manual overrides encode the course taxonomy, for example forcing
-        # "浏览器" under "客户端软件" instead of keeping multiple Wikidata parents.
+        # 人工覆盖规则用于固定课程本体中的主路径，例如将“浏览器”
+        # 统一放在“客户端软件”下，避免保留多个 Wikidata 父类。
         override = parent_overrides.get(child)
         if override in parents:
             chosen = override
             selection_reason = "canonical_override"
 
         if chosen is None:
-            # When no override exists, choose the highest ranked parent so every
-            # node has exactly one stable parent in the final tree.
+            # 没有覆盖规则时，按预设父类优先级选择一个主父节点，
+            # 保证最终树中每个节点只有一个稳定父节点。
             ranked = sorted(
                 parents,
                 key=lambda parent: (parent_rank.get(parent, len(parent_rank) + 1), parent),
@@ -146,7 +146,7 @@ def build_tree_lines(root: str, edges: list[dict]) -> list[str]:
     lines = [root]
 
     def visit(node: str, prefix: str) -> None:
-        """Render a deterministic text tree for reports and manual inspection."""
+        """生成稳定的文本树，便于报告展示和人工检查。"""
         node_children = children.get(node, [])
         for index, child in enumerate(node_children):
             is_last = index == len(node_children) - 1

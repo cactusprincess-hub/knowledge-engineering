@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def build_batch_output_path(output_dir: Path, target_name: str, offset: int) -> Path:
-    """Use deterministic filenames so interrupted crawls can resume by batch."""
+    """使用稳定文件名保存批次，便于抓取中断后继续运行。"""
     filename = f"{target_name}_offset_{offset:05d}.json"
     return output_dir / filename
 
@@ -22,7 +22,7 @@ def build_manifest(
     status: str = "success",
     error_message: str = "",
 ) -> dict:
-    """Record one fetch batch for reproducibility and later scale statistics."""
+    """记录单个抓取批次，支撑复现和规模统计。"""
     return {
         "target_name": target["name"],
         "target_qid": target["qid"],
@@ -40,7 +40,7 @@ def build_manifest(
 
 
 def summarise_manifest(entries: list[dict]) -> dict:
-    """Aggregate batch-level fetch metadata into report-ready counts."""
+    """将批次级元数据汇总为报告可引用的统计结果。"""
     raw_record_count = sum(entry["result_count"] for entry in entries)
     target_counter: Counter[str] = Counter()
     batch_counter: Counter[str] = Counter()

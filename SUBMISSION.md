@@ -19,7 +19,7 @@ python3 scripts/package_submission.py
 
 ## 提交包内容
 
-- `README_提交说明.md`：面向老师的项目概览、数据规模和复现命令。
+- `README_提交说明.md`：项目概览、数据规模和复现命令。
 - `项目处理报告.md`：数据处理流程、实体规模、本体治理、多源融合和质量控制说明。
 - `data/entities_5325.json`：Wikidata 批量规范化后的 5325 条一句话百科实体。
 - `data/chinese_fusion_entities.json`：中文来源增强和中英文实体对齐样本。
