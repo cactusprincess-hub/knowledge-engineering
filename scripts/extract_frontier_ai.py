@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract frontier AI entities from titles or headlines."""
+"""从论文标题或新闻标题中抽取前沿 AI 实体。"""
 
 from __future__ import annotations
 

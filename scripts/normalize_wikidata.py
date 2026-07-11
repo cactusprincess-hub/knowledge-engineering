@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize raw Wikidata SPARQL results into the project entity schema."""
+"""将 Wikidata SPARQL 原始结果规范化为项目实体结构。"""
 
 from __future__ import annotations
 

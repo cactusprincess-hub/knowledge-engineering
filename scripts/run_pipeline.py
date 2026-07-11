@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the demo pipeline end to end."""
+"""运行示例数据处理流程。"""
 
 from __future__ import annotations
 

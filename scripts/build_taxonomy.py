@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Clean subclass edges into a canonical tree for the course project."""
+"""将子类关系清理为课程项目使用的规范分类树。"""
 
 from __future__ import annotations
 

@@ -23,7 +23,7 @@ def is_qid_label(label: str) -> bool:
 
 
 def select_description_issues(record: dict, long_threshold: int = 45, short_threshold: int = 12) -> list[str]:
-    """Detect records whose one-sentence description needs normalization."""
+    """识别需要规范化的一句话简介。"""
     description = record.get("description", "").strip()
     raw_description = record.get("extra", {}).get("raw_description", description).strip()
     issues = []
@@ -46,7 +46,7 @@ def select_description_issues(record: dict, long_threshold: int = 45, short_thre
 
 
 def heuristic_summary(record: dict, max_chars: int = 30) -> str:
-    """Build a short definition from existing fields without adding new facts."""
+    """仅根据已有字段生成短定义，不引入来源之外的新事实。"""
     entity = record.get("entity", "").strip()
     category = record.get("category", "").strip()
     description = record.get("extra", {}).get("raw_description") or record.get("description", "")
@@ -95,7 +95,7 @@ def summarize_records(records: list[dict], limit: int = 100, max_chars: int = 30
         updated = dict(record)
         updated["description"] = after
         extra = dict(updated.get("extra", {}))
-        # Keep the original text and issue labels so each edit can be audited.
+        # 保留原始描述和问题标签，便于回溯每条简介的处理原因。
         extra["original_description"] = before
         extra["description_issues"] = issues
         extra["normalization_method"] = "rule_based_description_normalization"

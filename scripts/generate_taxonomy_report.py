@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate report-ready taxonomy governance artifacts."""
+"""生成报告可引用的本体治理结果。"""
 
 from __future__ import annotations
 

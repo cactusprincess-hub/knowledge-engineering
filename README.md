@@ -17,9 +17,9 @@
 - 引入中文来源补充国产软件，并完成中英文别名对齐和实体融合。
 - 对过短、过长、英文描述和泛化描述进行自动质量检查，生成统一格式的一句话简介。
 
-## 当前结果
+## 项目结果
 
-截至当前版本，项目已经形成一套完整的可复现实验流程：
+项目形成了一套可复现的数据处理流程，主要结果如下：
 
 - Wikidata 原始抓取记录：6069 条。
 - 规范化后可用实体：5325 条。
@@ -108,9 +108,9 @@ python3 scripts/summarize_descriptions.py --limit 100
 - `outputs/figures/alignment_stats.json`
 - `outputs/figures/description_qc_stats.json`
 
-## 作业提交包
+## 作业提交材料
 
-运行以下命令可以生成课程平台提交用压缩包：
+运行以下命令生成课程平台提交用压缩包：
 
 ```bash
 python3 scripts/package_submission.py

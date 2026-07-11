@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create standardized description summaries for noisy entity records."""
+"""为简介质量较差的实体生成规范化短描述。"""
 
 from __future__ import annotations
 

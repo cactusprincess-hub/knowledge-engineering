@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize and deduplicate all persisted Wikidata batch files."""
+"""规范化并去重已保存的 Wikidata 批量抓取文件。"""
 
 from __future__ import annotations
 

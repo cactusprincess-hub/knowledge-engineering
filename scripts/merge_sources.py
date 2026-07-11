@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge, clean, and deduplicate entities from all sources."""
+"""融合、清洗并去重多来源实体。"""
 
 from __future__ import annotations
 

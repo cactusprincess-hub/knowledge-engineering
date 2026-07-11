@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch Wikidata entities in balanced category batches and persist a manifest."""
+"""按类别分批抓取 Wikidata 实体，并保存批次清单。"""
 
 from __future__ import annotations
 
@@ -98,14 +98,14 @@ def main() -> None:
                 )
                 if result_count < batch_size:
                     write_log(
-                        f"Stop target={target['name']} after existing short batch offset={offset} result_count={result_count}",
+                        f"停止抓取 target={target['name']} offset={offset} 已有批次数量={result_count}",
                         args.log_file,
                     )
                     break
                 continue
 
             write_log(
-                f"Fetch start target={target['name']} qid={target['qid']} offset={offset} limit={batch_size}",
+                f"开始抓取 target={target['name']} qid={target['qid']} offset={offset} limit={batch_size}",
                 args.log_file,
             )
             try:
@@ -129,7 +129,7 @@ def main() -> None:
                     )
                 )
                 write_log(
-                    f"Fetch success target={target['name']} offset={offset} result_count={result_count}",
+                    f"抓取成功 target={target['name']} offset={offset} result_count={result_count}",
                     args.log_file,
                 )
             except Exception as exc:
@@ -147,7 +147,7 @@ def main() -> None:
                     )
                 )
                 write_log(
-                    f"Fetch failed target={target['name']} offset={offset} error={exc}",
+                    f"抓取失败 target={target['name']} offset={offset} error={exc}",
                     args.log_file,
                 )
                 break

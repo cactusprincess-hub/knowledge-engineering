@@ -1,1 +1,1 @@
-"""Software and AI ecosystem knowledge graph helpers."""
+"""软件与 AI 生态知识图谱工具模块。"""
